@@ -1,0 +1,28 @@
+// //-------------------------------------------------------------
+// //	Typography
+// //-------------------------------------------------------------
+// //	  • Element & Class Styling that aren't styled appropriately
+// //	    through the use of the included variables and bootstrap
+// a {
+// 	text-decoration: underline;
+// }
+.rundown-head {
+	border-bottom: 1px solid @color-tertiary-dark;
+	font-family: @serif-font;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	a {
+		color: @color-tertiary-dark;
+		&:hover {
+			color: @color-secondary;
+		}
+	}
+}
+h6.more-section {
+	font-size: 16px;
+	text-transform: uppercase;
+	a {
+		color: lighten(@color-main, 10%);
+	}
+}

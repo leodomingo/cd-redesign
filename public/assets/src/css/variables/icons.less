@@ -1,0 +1,90 @@
+// --------------------------------------------------
+//== Icons	- GlyphIcons, Font-Awesome, & Weather-Icons Configuration Variables
+// --------------------------------------------------
+//	 
+//	 File Locations of Variables Used Below:
+//	 	variables/assets.less		- @asset-path-*
+
+	
+	// --------------------------------------------------
+	//== Glyphicons - Specify custom location and filename of the included Glyphicons icon font.
+	// --------------------------------------------------
+	//	 • http://getbootstrap.com/components/#glyphicons
+
+		// Load fonts from this directory.
+			@icon-font-path:					@asset-path-fonts;
+
+		// File name for all font files.
+			@icon-font-name:					"glyphicons-halflings-regular";
+
+		// Element ID within SVG icon file.
+			@icon-font-svg-id:					"glyphicons_halflingsregular";
+
+		// GlyphIcons Font Family
+			@icon-font-family:					"Glyphicons Halflings";
+
+	
+	// --------------------------------------------------
+	//== Font Awesome - Specify custom location and filename of the Font-Awesome icon font.
+	// --------------------------------------------------
+	//	 • http://fortawesome.github.io/Font-Awesome/
+	//	 • http://fortawesome.github.io/Font-Awesome/icons/
+	//		
+	//	NOTE: To Reference the CDN Rather Than Hosting, use the Following Value for @fa-font-path: "//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts"; 
+
+		// File Paths
+			@fa-less-path:						"font-awesome.less";
+			@fa-less-directory:					"font-awesome/";
+			@fa-font-path:						@asset-path-fonts;
+
+		// Default Icon Sizes
+			@fa-font-size-base:					14px;
+			@fa-li-width:						(30em / 14);
+
+		// Default Styling
+			@fa-border-color:					@gray-lightest;
+			@fa-inverse:						@white; // for referencing Bootstrap CDN font files directly
+		
+		// Misc.
+			@fa-css-prefix:						fa;
+			@fa-version:						"4.4.0";
+
+
+	
+	// --------------------------------------------------
+	//== Weather Icons - Used Alongside Gryphon Weather Plugin
+	// --------------------------------------------------
+	//	 • http://erikflowers.github.io/weather-icons/
+	//	 • https://github.com/erikflowers/weather-icons
+	//		
+	//	NOTE: To Reference the CDN Rather Than Hosting, use the Following Value for @wi-font-path: "https://cdnjs.cloudflare.com/ajax/libs/weather-icons/1.3.2/font";
+		
+		// LESS Path
+			// If Only Needed for Gryphon Weather Plugin
+			@weather-less-path-gryphon:		"weather.less";
+		
+			// Use this Variable for the Whole Sha-bang
+			@weather-less-path-full:		"weather-icons-complete.less";
+
+			// Set this to Load Either the Gryphon Weather Icons or the Complete Set
+			@weather-less-path:				@weather-less-path-gryphon;
+
+
+		// Font Path to Icons
+			@weather-icons-path:			"@{asset-path-fonts}";
+
+
+		// Misc.
+			@weather-icons-prefix:			wi;
+			@weather-icons-font-family:		weathericons;
+			@WeatherIconVersion:			"1.3.0";
+
+
+	
+	// --------------------------------------------------
+	//== Set the Default Icon Set
+	// --------------------------------------------------
+	
+		// Default Icon Font Family 
+			@icon-font-family-default:			@icon-font-family;
+			@icon-font-family-alt:				@weather-icons-font-family;

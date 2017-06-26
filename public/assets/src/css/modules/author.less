@@ -1,0 +1,40 @@
+.author-social-icon(@code) {
+	content: @code;
+	font-family: 'fontawesome' !important;
+	margin-right: 10px;
+	font-size: 20px;
+	position: relative;
+	top: 2px;
+	color: @color-main;
+}
+
+.author-bio{
+	.author-img {
+		width: 180px;
+	}
+	ul{
+
+		padding-left: 0;
+
+		li {
+			list-style-type: none;
+			margin-left: 0;
+		}
+
+		a[href*="facebook.com"]:before {
+			.author-social-icon("\f230");
+		}
+		a[href*="twitter.com"]:before {
+			.author-social-icon("\f081");
+		}
+		a[href*="instagram.com"]:before {
+			.author-social-icon("\f16d");
+		}
+		a[href*="pinterest.com"]:before {
+			.author-social-icon("\f0d3");
+		}
+		a[href*="mailto"]:before {
+			.author-social-icon("\f199");
+		}
+	}
+}

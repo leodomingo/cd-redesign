@@ -1,0 +1,138 @@
+// --------------------------------------------------
+//== Navigation Components
+// --------------------------------------------------
+//## Navs and Navbar Configurations
+//	 • http://getbootstrap.com/javascript/#tabs
+//	 
+//	 File Locations of Variables Used Below:
+//	 	variables/global.less		- @border-radius-*
+//	 								- @component-*-*
+//	 	variables/type.less			- @line-height-*
+
+
+	// --------------------------------------------------
+	//== Navs
+	// --------------------------------------------------
+	//	 • http://getbootstrap.com/components/#nav
+
+		//=== Shared nav styles
+		@nav-link-padding:								@padding-small-vertical @padding-small-horizontal;
+		@nav-link-hover-bg:								@color-tertiary;
+
+		@nav-disabled-link-color:						@color-inverse-alt;
+		@nav-disabled-link-hover-color:					@color-inverse-alt;
+
+		//== Tabs
+		@nav-tabs-border-color:							darken(@color-tertiary, 5%);
+
+		@nav-tabs-link-hover-border-color:				darken(@color-tertiary, 5%);
+
+		@nav-tabs-active-link-hover-bg:					@color-main;
+		@nav-tabs-active-link-hover-color:				@color-inverse;
+		@nav-tabs-active-link-hover-border-color:		@color-main;
+
+		@nav-tabs-justified-link-border-color:			@color-tertiary;
+		@nav-tabs-justified-active-link-border-color:	darken(@color-tertiary, 5%);
+
+		//== Pills
+		@nav-pills-border-radius:						@border-radius-base;
+		@nav-pills-active-link-hover-bg:				@component-active-bg;
+		@nav-pills-active-link-hover-color:				@component-active-color;
+
+
+	// --------------------------------------------------
+	//== Navbar
+	// --------------------------------------------------
+	//	 • http://getbootstrap.com/components/#navbar
+
+		// Basics of a navbar
+		@navbar-height:									27px;
+		@navbar-collapse-max-height:					400px;
+
+		@navbar-margin-bottom:							0;		//	Container Related Spacing (Maybe Dealt with Elsewhere)
+		
+		@navbar-container-padding-vertical:				0;		//	The padding vertical for the entire navbar
+		@navbar-container-padding-horizontal:			0;		//	The padding horizontal for the entire navbar
+
+		@navbar-padding-horizontal:						20px;	//	Padding Used on Links for Horizon Spacing		|	Default: floor((@grid-gutter-width / 2));
+		@navbar-padding-vertical:						15px;		//	Padding Used on Links to Vertically Center		|	Default: ((@navbar-height - @line-height-computed) / 2);
+
+		@navbar-border-radius:							0;		//													|	Default: @border-radius-base;
+
+
+		@navbar-default-color:							@color-inverse;
+		@navbar-default-bg:								@color-main;
+		@navbar-default-border:							transparent;
+
+
+		// Navbar links
+		@navbar-default-link-color:						@color-inverse;
+
+		@navbar-default-link-hover-color:				@color-inverse;
+		@navbar-default-link-hover-bg:					@color-secondary;
+
+		@navbar-default-link-active-color:				@color-tertiary;
+		@navbar-default-link-active-bg:					@color-inverse;
+
+		@navbar-default-link-disabled-color:			@color-inverse-alt;
+		@navbar-default-link-disabled-bg:				transparent;
+
+		@navbar-default-link-line-height:				@navbar-height - @navbar-padding-vertical;
+
+
+		// Navbar Dividers
+		@navbar-divider-width:							0;
+		@navbar-divider-color:							@navbar-default-link-hover-bg;
+
+		// Navbar brand label
+		@navbar-default-brand-color:					@color-inverse;
+		@navbar-default-brand-hover-color:				@color-main;
+		@navbar-default-brand-hover-bg:					transparent;
+
+		@navbar-default-brand-width:					255px;
+		@navbar-default-brand-image-height:				43px;
+		@navbar-default-brand-image-width:				255px;
+		@navbar-default-brand-padding-vertical:			(@navbar-height - @navbar-default-brand-image-height) / 2;
+		@navbar-default-brand-padding-horizontal:		(@navbar-default-brand-width - @navbar-default-brand-image-width) / 2;
+		@navbar-default-brand-margin-right:				45px;
+		
+
+		// Navbar toggle
+		@navbar-default-toggle-width:					50px;
+		@navbar-default-toggle-icon-width:				36px;
+		@navbar-default-toggle-icon-height:				32px;
+		@navbar-default-toggle-hover-bg:				@navbar-default-link-hover-bg;
+		@navbar-default-toggle-icon-bar-bg:				@color-inverse;
+		@navbar-default-toggle-border-color:			transparent;
+
+
+		// INVERTED NAVBAR
+		// Reset inverted navbar basics
+		@navbar-inverse-color:							@color-main;
+		@navbar-inverse-bg:								@color-tertiary;
+		@navbar-inverse-border:							darken(@navbar-inverse-bg, 10%);
+
+
+		// Inverted navbar links
+		@navbar-inverse-link-color:						@color-main;
+
+		@navbar-inverse-link-hover-color:				@color-main;
+		@navbar-inverse-link-hover-bg:					darken(@color-tertiary, 3.25%);
+
+		@navbar-inverse-link-active-color:				@color-main;
+		@navbar-inverse-link-active-bg:					darken(@navbar-inverse-bg, 10%);
+
+		@navbar-inverse-link-disabled-color:			@color-inverse-alt;
+		@navbar-inverse-link-disabled-bg:				transparent;
+
+
+		// Inverted navbar brand label
+		@navbar-inverse-brand-color:					@color-main;
+		@navbar-inverse-brand-hover-color:				@color-tertiary;
+		@navbar-inverse-brand-hover-bg:					transparent;
+
+
+		// Inverted navbar toggle
+		@navbar-inverse-toggle-hover-bg:				@navbar-inverse-link-hover-bg;
+		@navbar-inverse-toggle-icon-bar-bg:				@navbar-inverse-bg;
+		@navbar-inverse-toggle-border-color:			@color-main;

@@ -1,0 +1,799 @@
+// --------------------------------------------------
+//== Alerts
+// --------------------------------------------------
+//## Define alert colors, border radius, and padding.
+//	 • http://getbootstrap.com/components/#alerts
+//	 • http://getbootstrap.com/javascript/#alerts
+//	 
+//	 File Locations of Variables Used Below:
+//	 	variables/global.less		- @border-radius-*
+//	 								- @state-*-*
+
+	@alert-padding:									15px;
+	@alert-border-radius:							@border-radius-base;
+	@alert-link-font-weight:						bold;
+
+	@alert-success-bg:								@state-success-bg;
+	@alert-success-text:							@state-success-text;
+	@alert-success-border:							@state-success-border;
+
+	@alert-info-bg:									@state-info-bg;
+	@alert-info-text:								@state-info-text;
+	@alert-info-border:								@state-info-border;
+
+	@alert-warning-bg:								@state-warning-bg;
+	@alert-warning-text:							@state-warning-text;
+	@alert-warning-border:							@state-warning-border;
+
+	@alert-danger-bg:								@state-danger-bg;
+	@alert-danger-text:								@state-danger-text;
+	@alert-danger-border:							@state-danger-border;
+
+
+// --------------------------------------------------
+//== Badges
+// --------------------------------------------------
+//	 • http://getbootstrap.com/components/#badges
+//	 
+//	 File Locations of Variables Used Below:
+//	 	variables/styles.less		- @link-color
+
+	@badge-color:									@white;
+	//** Linked badge text color on hover
+	@badge-link-hover-color:						@white;
+	@badge-bg:										@gray-light;
+
+	//** Badge text color in active nav link
+	@badge-active-color:							@link-color;
+	//** Badge background color in active nav link
+	@badge-active-bg:								@white;
+
+	@badge-font-weight:								bold;
+	@badge-line-height:								1;
+	@badge-border-radius:							10px;
+
+
+// --------------------------------------------------
+//== Breadcrumbs
+// --------------------------------------------------
+//	 • http://getbootstrap.com/components/#breadcrumbs
+//	 
+//	 File Locations of Variables Used Below:
+//	 	---- SELF CONTAINED ----
+
+	@breadcrumb-padding-vertical:					8px;
+	@breadcrumb-padding-horizontal:					15px;
+	//** Breadcrumb background color
+	@breadcrumb-bg:									@off-white;
+	//** Breadcrumb text color
+	@breadcrumb-color:								@gray-lighter;
+	//** Text color of current page in the breadcrumb
+	@breadcrumb-active-color:						@gray-light;
+	//** Textual separator for between breadcrumb elements
+	@breadcrumb-separator:							"/";
+
+
+// --------------------------------------------------
+//== Buttons
+// --------------------------------------------------
+//## For each of Bootstrap's buttons, define text, background and border color.
+//	 • http://getbootstrap.com/css/#buttons
+//	 • http://getbootstrap.com/javascript/#buttons
+//	 • http://getbootstrap.com/javascript/#collapse
+//	 
+//	 File Locations of Variables Used Below:
+//	 	variables/global.less		- @brand-*
+
+	@btn-font-weight:								normal;
+
+	@btn-default-color:								@gray-dark;
+	@btn-default-bg:								@white;
+	@btn-default-border:							@gray-lighter;
+
+	@btn-primary-color:								@white;
+	@btn-primary-bg:								@brand-primary;
+	@btn-primary-border:							darken(@btn-primary-bg, 5%);
+
+	@btn-success-color:								@white;
+	@btn-success-bg:								@brand-success;
+	@btn-success-border:							darken(@btn-success-bg, 5%);
+
+	@btn-info-color:								@white;
+	@btn-info-bg:									@brand-info;
+	@btn-info-border:								darken(@btn-info-bg, 5%);
+
+	@btn-warning-color:								@white;
+	@btn-warning-bg:								@brand-warning;
+	@btn-warning-border:							darken(@btn-warning-bg, 5%);
+
+	@btn-danger-color:								@white;
+	@btn-danger-bg:									@brand-danger;
+	@btn-danger-border:								darken(@btn-danger-bg, 5%);
+
+	@btn-link-disabled-color:						@gray-light;
+
+
+	// --------------------------------------------------
+	// *** Close & Carets
+	// --------------------------------------------------
+	//##
+
+		@close-font-weight:								bold;
+		@close-color:									@black;
+		@close-text-shadow:								0 1px 0 @white;
+
+		//** Width of the `border` for generating carets that indicator dropdowns.
+		@caret-width-base:								4px;
+		//** Carets increase slightly in size for larger components.
+		@caret-width-large:								5px;
+
+
+
+// --------------------------------------------------
+//== Carousel
+// --------------------------------------------------
+//	 • http://getbootstrap.com/javascript/#carousel
+//	 
+//	 File Locations of Variables Used Below:
+//	 	variables//type.less		- @icon-font-family-default
+
+	// Dimensions
+	
+
+	// Spacing
+		
+
+	// Image / Dominant Display Styling
+
+		// @carousel-image
+		// @carousel-image
+		
+
+	// Captions / Summarizing Information
+	
+		// Dimensions
+		@carousel-caption-width:						100%;
+		@carousel-caption-height:						50px;
+
+		// Placement
+		@carousel-caption-hor-property:					left;
+		@carousel-caption-hor-position:					0;
+		@carousel-caption-vert-property:				bottom;
+		@carousel-caption-vert-position:				0;
+
+		// Font Styling
+		@carousel-caption-color:						@color-inverse-alt;
+		@carousel-caption-text-color:					@color-inverse-alt;
+		@carousel-caption-link-color:					@color-main;
+
+		@carousel-caption-headline-color:				@carousel-caption-link-color;
+		@carousel-caption-dateline-color:				@carousel-caption-text-color;
+
+		// Container Styling
+		@carousel-caption-bg-color:						@color-tertiary;
+
+
+	// Controls
+	
+		// Dimensions
+		@carousel-control-width:						15%;
+		@carousel-control-height:						100%;
+		// Below Asummes that the Caption Will Be Placed at the Bottom Spanning 100%; Don't Want to Overlap Headlines and So On
+		@carousel-control-margin:						0 0 50px 0;
+		@carousel-control-padding:						0;
+		
+		// Icon Controls Styling
+		@carousel-control-font-size:					20px;
+		@carousel-control-icon-size:					44px;
+
+		@carousel-control-color:						@color-main;
+		@carousel-control-icon-color:					@color-tertiary;
+		@carousel-control-icon-color-hover:				@color-main;
+
+		@carousel-control-icon-font:					@icon-font-family-default;
+		@carousel-control-icon-left:					"\e250";
+		@carousel-control-icon-right:					"\e251";
+
+		// Container Styling
+		@carousel-control-opacity:						.75;
+		@carousel-control-opacity-hover:				.9;
+
+		@carousel-control-bg-color:						transparent;
+		@carousel-control-bg-hover:						transparent;
+
+	
+	// Indicators
+	
+		// Dimensions
+	
+
+	// Misc. Styling
+
+		@carousel-text-shadow:							0 1px 2px rgba(0,0,0, .6);
+
+		@carousel-indicator-active-bg:					@color-main;
+		@carousel-indicator-border-color:				@color-inverse-alt;
+
+
+
+// --------------------------------------------------
+//== Code
+// --------------------------------------------------
+//	 • http://getbootstrap.com/css/#code
+//	 
+//	 File Locations of Variables Used Below:
+//	 	---- SELF CONTAINED ----
+
+	@code-color:									#c7254e;
+	@code-bg:										#f9f2f4;
+
+	@kbd-color:										@white;
+	@kbd-bg:										@gray-dark;
+
+	@pre-bg:										@off-white;
+	@pre-color:										@gray-dark;
+	@pre-border-color:								@gray-lighter;
+	@pre-scrollable-max-height:						340px;
+
+
+
+// --------------------------------------------------
+//== Colors
+// --------------------------------------------------
+	@white:											#FFFFFF;
+	@black:											#000000;
+
+	@angel-white:									#F9F9F9;
+	@off-white:										#F5F5F5;
+	@soft-white:									#E5E5E5;
+
+//## Gray and brand colors for use across Bootstrap.
+	@gray-base:										@black;
+	@gray-darker:									lighten(@gray-base, 13.5%); // #222
+	@gray-dark:										lighten(@gray-base, 20%);   // #333
+	@gray:											lighten(@gray-base, 33.5%); // #555
+	@gray-light:									lighten(@gray-base, 46.7%); // #777
+	@gray-lighter:									#CCC;						// #CCC
+	@gray-lightest:									lighten(@gray-base, 93.5%); // #eee
+
+	// Reds
+	@red:											#FF0000;
+	@bold-red:										#980713;
+	@hot-red:										#FF0033;
+	@red-orange:									#FF3300;
+	@orange:										#FF9900;
+	@deep-orange:									#FF6633;
+	@red-pink:										#FF3366;
+	@orange-yellow:									#FFCC00;
+
+	@orange-tan:									#FFCC99;
+	@soft-orange:									#FF9966;
+
+	@yellow:										#FFFF00;
+	@deep-yellow:									#FFFF33;
+	@baby-yellow:									#FFFF99;
+	@soft-yellow:									#FFFFCC;
+
+	@pink:											#FF00FF;
+	@orange-pink:									#FF0033;
+	@bright-pink:									#FF0099;
+	@hot-pink:										#FF00CC;
+
+	@soft-purple:									#FFCCFF;
+	@baby-pink:										#FF99FF;
+	@soft-pink:										#FF99CC;
+	@red-pink:										#FF6699;
+	@pink:											#FF33FF;
+
+	// Blues
+	@blue:											#0000FF;
+	@fair-blue:										#0033FF;
+	@dodger-blue:									#3300FF;
+	@soft-blue:										#3366FF;
+	@sky-blue:										#0099FF;
+	@baby-blue:										#00CCFF;
+
+	@aqua:											#00FFFF;
+	@deep-aqua:										#33FFFF;
+	@soft-aqua:										#99FFFF;
+	@baby-aqua:										#CCFFFF;
+
+	@blue-purple:									#6633FF;
+	@lavender:										#6699FF;
+	@purple:										#9900FF;
+	@plum:											#9966FF;
+	@purple-blue:									#99CCFF;
+
+	@violet:										#CC99FF;
+	@orchid:										#CC00FF;
+
+	// Greens
+	@green:											#00FF00;
+	@deep-green:									#00FF33;
+	@baby-green:									#00FF99;
+	@teal:											#00FFCC;
+
+	@lime:											#33FF00;
+	@soft-lime:										#33FF66;
+
+	@bright-lime:									#66FF33;
+	@baby-lime:										#66FF99;
+
+	@bright-green:									#99FF00;
+	@baby-lime:										#99FF66;
+	@soft-teal:										#99FFCC;
+
+	@yellow-green:									#CCFF00;
+	@yellow-lime:									#CCFF99;
+
+
+
+
+// --------------------------------------------------
+//== Dropdowns
+// --------------------------------------------------
+//## Dropdown menu container and contents.
+//	 • http://getbootstrap.com/components/#dropdowns
+//	 • http://getbootstrap.com/javascript/#dropdowns
+//	 
+//	 File Locations of Variables Used Below:
+//	 	variables/global.less		- @component-*-*
+
+	//** Background for the dropdown menu.
+	@dropdown-bg:									@color-main;
+	//** Dropdown menu `border-color`.
+	@dropdown-border:								darken(@color-main, 10%);
+	//** Dropdown menu `border-color` **for IE8**.
+	@dropdown-fallback-border:						@color-tertiary;
+	//** Divider color for between dropdown items.
+	@dropdown-divider-bg:							@color-tertiary;
+
+	//** Dropdown link text color.
+	@dropdown-link-color:							@color-tertiary;
+	//** Hover color for dropdown links.
+	@dropdown-link-hover-color:						@color-inverse-alt;	// darken(@gray-dark, 5%);
+	//** Hover background for dropdown links.
+	@dropdown-link-hover-bg:						@color-tertiary;
+
+	//** Active dropdown menu item text color.
+	@dropdown-link-active-color:					@component-active-color;
+	//** Active dropdown menu item background color.
+	@dropdown-link-active-bg:						@component-active-bg;
+
+	//** Disabled dropdown menu item background color.
+	@dropdown-link-disabled-color:					@gray-light;
+
+	//** Text color for headers within dropdown menus.
+	@dropdown-header-color:							@gray-light;
+
+	//** Deprecated `@dropdown-caret-color` as of v3.1.0
+	@dropdown-caret-color:							@black;
+
+
+
+// --------------------------------------------------
+//== Forms
+// --------------------------------------------------
+//	 • http://getbootstrap.com/css/#forms
+//	 • http://getbootstrap.com/components/#input-groups
+//	 
+//	 File Locations of Variables Used Below:
+//	 	variables/global.less		- @border-radius-*
+//	 								- @padding-*-*
+//	 	variables/type.less
+//	 								- @line-height-*
+//	 								- @font-size-*
+
+	//** `<input>` background color
+	@input-bg:										@color-inverse;
+	//** `<input disabled>` background color
+	@input-bg-disabled:								@color-tertiary;
+
+	//** Text color for `<input>`s
+	@input-color:									@color-inverse-alt;
+	//** `<input>` border color
+	@input-border:									@color-inverse-alt;
+
+	// TODO: Rename `@input-border-radius` to `@input-border-radius-base` in v4
+	//** Default `.form-control` border radius
+	// This has no effect on `<select>`s in some browsers, due to the limited stylability of `<select>`s in CSS.
+	@input-border-radius:							@border-radius-base;
+	//** Large `.form-control` border radius
+	@input-border-radius-large:						@border-radius-large;
+	//** Small `.form-control` border radius
+	@input-border-radius-small:						@border-radius-small;
+
+	//** Border color for inputs on focus
+	@input-border-focus:							@color-main;
+
+	//** Placeholder text color
+	@input-color-placeholder:						lighten(@color-inverse-alt, 15%);
+
+	//** Default `.form-control` height
+	@input-height-base:								ceil(@line-height-base + (@padding-base-vertical * 2) + 2);
+	//** Large `.form-control` height
+	@input-height-large:							ceil(@line-height-large + (@padding-large-vertical * 2) + 2);
+	//** Small `.form-control` height
+	@input-height-small:							ceil(@line-height-small + (@padding-small-vertical * 2) + 2);
+
+	//** `.form-group` margin
+	@form-group-margin-bottom:						@margin-base;
+
+	@legend-color:									@gray-dark;
+	@legend-border-color:							@soft-white;
+
+	//** Background color for textual input addons
+	@input-group-addon-bg:							@color-tertiary;
+	//** Border color for textual input addons
+	@input-group-addon-border-color:				@input-border;
+
+	//** Disabled cursor for form controls and buttons.
+	@cursor-disabled:								not-allowed;
+
+
+
+// --------------------------------------------------
+//== Jumbotron
+// --------------------------------------------------
+//	 • http://getbootstrap.com/components/#jumbotron
+//	 
+//	 File Locations of Variables Used Below:
+//	 	variables/type.less		- @font-size-base
+
+	@jumbotron-padding:								30px;
+	@jumbotron-color:								inherit;
+	@jumbotron-bg:									@gray-lightest;
+	@jumbotron-heading-color:						inherit;
+	@jumbotron-font-size:							ceil((@font-size-base * 1.5));
+
+
+
+// --------------------------------------------------
+//== Labels
+// --------------------------------------------------
+//	 • http://getbootstrap.com/components/#labels
+//	 
+//	 File Locations of Variables Used Below:
+//	 	variables/global.less		- @brand-*
+
+	//** Default label background color
+	@label-default-bg:								@gray-light;
+	//** Primary label background color
+	@label-primary-bg:								@brand-primary;
+	//** Success label background color
+	@label-success-bg:								@brand-success;
+	//** Info label background color
+	@label-info-bg:									@brand-info;
+	//** Warning label background color
+	@label-warning-bg:								@brand-warning;
+	//** Danger label background color
+	@label-danger-bg:								@brand-danger;
+
+	//** Default label text color
+	@label-color:									@white;
+	//** Default text color of a linked label
+	@label-link-hover-color:						@white;
+
+
+
+// --------------------------------------------------
+//== List group
+// --------------------------------------------------
+//	 • http://getbootstrap.com/components/#list-group
+//	 
+//	 File Locations of Variables Used Below:
+//	 	variables/global.less		- @border-radius-*
+//	 								- @component-*-*
+
+	//** Background color on `.list-group-item`
+	@list-group-bg:									@white;
+	//** `.list-group-item` border color
+	@list-group-border:								#ddd;
+	//** List group border radius
+	@list-group-border-radius:						@border-radius-base;
+
+	//** Background color of single list items on hover
+	@list-group-hover-bg:							@off-white;
+	//** Text color of active list items
+	@list-group-active-color:						@component-active-color;
+	//** Background color of active list items
+	@list-group-active-bg:							@component-active-bg;
+	//** Border color of active list elements
+	@list-group-active-border:						@list-group-active-bg;
+
+	//** Text color for content within active list items
+	@list-group-active-text-color:					lighten(@list-group-active-bg, 40%);
+	//** Text color of disabled list items
+	@list-group-disabled-color:						@gray-light;
+	//** Background color of disabled list items
+	@list-group-disabled-bg:						@gray-lightest;
+	//** Text color for content within disabled list items
+	@list-group-disabled-text-color:				@list-group-disabled-color;
+
+	@list-group-link-color:							#555;
+	@list-group-link-hover-color:					@list-group-link-color;
+	@list-group-link-heading-color:					@gray-dark;
+
+
+
+// --------------------------------------------------
+//== Modals
+// --------------------------------------------------
+//	 • http://getbootstrap.com/javascript/#modals
+//	 
+//	 File Locations of Variables Used Below:
+//	 	variables/type.less			- @line-height-*
+
+	//** Padding applied to the modal body
+	@modal-inner-padding:							@padding-base-vertical;
+
+	//** Padding applied to the modal title
+	@modal-title-padding:							@padding-base-vertical;
+	//** Modal title line-height
+	@modal-title-line-height:						@line-height-base;
+
+	//** Background color of modal content area
+	@modal-content-bg:								@white;
+	//** Modal content border color
+	@modal-content-border-color:					rgba(0,0,0,.2);
+	//** Modal content border color **for IE8**
+	@modal-content-fallback-border-color:			#999;
+
+	//** Modal backdrop background color
+	@modal-backdrop-bg:								@black;
+	//** Modal backdrop opacity
+	@modal-backdrop-opacity:						.5;
+	//** Modal header border color
+	@modal-header-border-color:						@soft-white;
+	//** Modal footer border color
+	@modal-footer-border-color:						@modal-header-border-color;
+
+	@modal-lg:										80%;
+	@modal-md:										70%;
+	@modal-sm:										60%;
+
+
+
+// --------------------------------------------------
+//== Pagination
+// --------------------------------------------------
+//	 • http://getbootstrap.com/components/#pagination
+//	 
+//	 File Locations of Variables Used Below:
+//	 	variables/global.less		- @brand-*
+//	 	
+//	 	variables/type.less			- @link-*-*
+
+	@pagination-color:								@color-main;
+	@pagination-bg:									@color-inverse;
+	@pagination-border:								@color-inverse-alt;
+
+	@pagination-hover-color:						@link-hover-color;
+	@pagination-hover-bg:							@color-tertiary;
+	@pagination-hover-border:						@color-main;
+
+	@pagination-active-color:						@color-inverse;
+	@pagination-active-bg:							@color-main;
+	@pagination-active-border:						@color-inverse-alt;
+
+	@pagination-disabled-color:						@color-inverse-alt;
+	@pagination-disabled-bg:						@color-tertiary;
+	@pagination-disabled-border:					@color-inverse-alt;
+
+
+
+	// --------------------------------------------------
+	//== Pager
+	// --------------------------------------------------
+	//	 • http://getbootstrap.com/components/#pagination-pager
+
+		@pager-bg:										@pagination-bg;
+		@pager-border:									@pagination-border;
+		@pager-border-radius:							15px;
+
+		@pager-hover-bg:								@pagination-hover-bg;
+
+		@pager-active-bg:								@pagination-active-bg;
+		@pager-active-color:							@pagination-active-color;
+
+		@pager-disabled-color:							@pagination-disabled-color;
+
+
+
+// --------------------------------------------------
+//== Panels
+// --------------------------------------------------
+//	 • http://getbootstrap.com/components/#panels
+//	 
+//	 File Locations of Variables Used Below:
+//	 	variables/global.less		- @border-radius-*
+//	 								- @state-*-*
+//	 								- @brand-*
+
+	@panel-bg:										@white;
+	@panel-body-padding:							15px;
+	@panel-heading-padding:							10px 15px;
+	@panel-footer-padding:							@panel-heading-padding;
+	@panel-border-radius:							@border-radius-base;
+
+	//** Border color for elements within panels
+	@panel-inner-border:							#ddd;
+	@panel-footer-bg:								@off-white;
+
+	@panel-default-text:							@gray-dark;
+	@panel-default-border:							#ddd;
+	@panel-default-heading-bg:						@off-white;
+
+	@panel-primary-text:							@white;
+	@panel-primary-border:							@brand-primary;
+	@panel-primary-heading-bg:						@brand-primary;
+
+	@panel-success-text:							@state-success-text;
+	@panel-success-border:							@state-success-border;
+	@panel-success-heading-bg:						@state-success-bg;
+
+	@panel-info-text:								@state-info-text;
+	@panel-info-border:								@state-info-border;
+	@panel-info-heading-bg:							@state-info-bg;
+
+	@panel-warning-text:							@state-warning-text;
+	@panel-warning-border:							@state-warning-border;
+	@panel-warning-heading-bg:						@state-warning-bg;
+
+	@panel-danger-text:								@state-danger-text;
+	@panel-danger-border:							@state-danger-border;
+	@panel-danger-heading-bg:						@state-danger-bg;
+
+
+
+// --------------------------------------------------
+//== Popovers
+// --------------------------------------------------
+//	 • http://getbootstrap.com/javascript/#popovers
+//	 
+//	 File Locations of Variables Used Below:
+//	 	---- SELF CONTAINED ----
+
+	//** Popover body background color
+	@popover-bg:									@white;
+	//** Popover maximum width
+	@popover-max-width:								276px;
+	//** Popover border color
+	@popover-border-color:							rgba(0,0,0,.2);
+	//** Popover fallback border color
+	@popover-fallback-border-color:					@gray-lighter;
+
+	//** Popover title background color
+	@popover-title-bg:								darken(@popover-bg, 3%);
+
+	//** Popover arrow width
+	@popover-arrow-width:							10px;
+	//** Popover arrow color
+	@popover-arrow-color:							@popover-bg;
+
+	//** Popover outer arrow width
+	@popover-arrow-outer-width:						(@popover-arrow-width + 1);
+	//** Popover outer arrow color
+	@popover-arrow-outer-color:						fadein(@popover-border-color, 5%);
+	//** Popover outer arrow fallback color
+	@popover-arrow-outer-fallback-color:			darken(@popover-fallback-border-color, 20%);
+
+
+
+// --------------------------------------------------
+//== Progress bars
+// --------------------------------------------------
+//	 • http://getbootstrap.com/components/#progress
+//	 
+//	 File Locations of Variables Used Below:
+//	 	variables/global.less		- @brand-*
+//	 								- @border-radius-*
+
+	//** Background color of the whole progress component
+	@progress-bg:									@off-white;
+	//** Progress bar text color
+	@progress-bar-color:							@white;
+	//** Variable for setting rounded corners on progress bar.
+	@progress-border-radius:						@border-radius-base;
+
+	//** Default progress bar color
+	@progress-bar-bg:								@brand-primary;
+	//** Success progress bar color
+	@progress-bar-success-bg:						@brand-success;
+	//** Warning progress bar color
+	@progress-bar-warning-bg:						@brand-warning;
+	//** Danger progress bar color
+	@progress-bar-danger-bg:						@brand-danger;
+	//** Info progress bar color
+	@progress-bar-info-bg:							@brand-info;
+
+
+
+// --------------------------------------------------
+//== Tables
+// --------------------------------------------------
+//## Customizes the `.table` component with basic values, each used across all table variations.
+//	 • http://getbootstrap.com/css/#tables
+//	 
+//	 File Locations of Variables Used Below:
+//	 	---- SELF CONTAINED ----
+
+	//** Padding for `<th>`s and `<td>`s.
+	@table-cell-padding:							4px;
+	//** Padding for cells in `.table-condensed`.
+	@table-condensed-cell-padding:					3px;
+
+	//** Default background color used for all tables.
+	@table-bg:										transparent;
+	//** Background color used for `.table-striped`.
+	@table-bg-accent:								@color-tertiary;
+	//** Background color used for `.table-hover`.
+	@table-bg-hover:								@color-main;
+	@table-bg-active:								@table-bg-hover;
+
+	//** Border color for table and cell borders.
+	@table-border-color:							darken(@color-tertiary, 15%);
+
+
+
+// --------------------------------------------------
+//== Thumbnails
+// --------------------------------------------------
+//	 • http://getbootstrap.com/components/#thumbnails
+//	 
+//	 File Locations of Variables Used Below:
+//	 	variables/global.less		- @border-radius-*
+//	 	
+//	 	variables/styles.less		- @body-bg
+//	 								- @text-color
+
+	//** Padding around the thumbnail image
+	@thumbnail-padding:								4px;
+	//** Thumbnail background color
+	@thumbnail-bg:									@body-bg;
+	//** Thumbnail border color
+	@thumbnail-border:								#ddd;
+	//** Thumbnail border radius
+	@thumbnail-border-radius:						@border-radius-base;
+
+	//** Custom text color for thumbnail captions
+	@thumbnail-caption-color:						@text-color;
+	//** Padding around the thumbnail caption
+	@thumbnail-caption-padding:						9px;
+
+
+
+
+// --------------------------------------------------
+//== Tooltips
+// --------------------------------------------------
+//	 • http://getbootstrap.com/javascript/#tooltips
+//	 
+//	 File Locations of Variables Used Below:
+//	 	---- SELF CONTAINED ----
+
+	//** Tooltip max width
+	@tooltip-max-width:								200px;
+	//** Tooltip text color
+	@tooltip-color:									@white;
+	//** Tooltip background color
+	@tooltip-bg:									@black;
+	@tooltip-opacity:								.9;
+
+	//** Tooltip arrow width
+	@tooltip-arrow-width:							5px;
+	//** Tooltip arrow color
+	@tooltip-arrow-color:							@tooltip-bg;
+
+
+
+// --------------------------------------------------
+//== Wells
+// --------------------------------------------------
+//	 • http://getbootstrap.com/components/#wells
+//	 
+//	 File Locations of Variables Used Below:
+//	 	---- SELF CONTAINED ----
+
+	@well-bg:										@off-white;
+	@well-border:									darken(@well-bg, 7%);

@@ -1,0 +1,143 @@
+//-------------------------------------------------------------
+// Sidebar Specific Styling
+//-------------------------------------------------------------
+
+.col-lg-3.ad-fix-ad.hidden-sm.hidden-xs {
+	.twitter-feed {
+		width: 300px;
+		margin-top: 5px;
+	}
+}
+.social-header {
+	text-align: center;
+    display: inline-block;
+    margin-bottom: 30px;
+	a {
+		@media(max-width: @screen-md-max){
+	    	width: 42px;
+	    	height: 42px;
+	    	font-size: 27px;
+	    }
+		text-align: center;
+	    border-radius: 50%;
+	    width: 50px;
+	    height: 50px;
+	    display: inline-block;
+	    line-height: 27px !important;
+	    font-size: 32px;
+	    margin: 0 4px;
+	    color: #fff;
+	    .fa {
+	    	@media(max-width: @screen-md-max){
+		    	margin-top: 8px;
+		    }
+	    	margin-top: 10px;
+	    }
+	    &#facebook {
+			background: @color-facebook;
+			&:hover {
+				background: darken(@color-facebook, 8%);
+			}
+			// i {
+			// 	width: 32px;
+			// }
+		}
+		&#twitter {
+			background: @color-twitter;
+			&:hover {
+				background: darken(@color-twitter, 8%);
+			}
+		}
+		&#instagram {
+			background: @color-instagram;
+			&:hover {
+				background: darken(@color-instagram, 8%);
+			}
+			// i{
+			// 	width:31px;
+			// }
+		}
+		&#youtube {
+			background: @color-youtube;
+			&:hover {
+				background: darken(@color-youtube, 8%);
+			}
+		}
+		&#rss {
+			background: @color-rss;
+			&:hover {
+				background: darken(@color-rss, 8%);
+			}
+		}
+	}
+}
+.sidebar-rundown{
+	.art-left{
+		.art-left-txt-div{
+			.art-left-headline{
+				font-size: 24px;
+				a{
+					color: @black;
+				}
+			}
+		}
+	}
+}
+.sidebar-events{
+	.nav-tabs{
+		.active{
+			a{
+				color: @black;
+				border-bottom: 5px solid @black !important;
+				font-size: 16px;
+				margin-right: -7px;
+			}
+		}
+		a{
+			color: #DEDEDE;
+			font-size: 16px;
+			margin-right: -7px;
+		}
+	}
+	.tab-content{
+		.text-right{
+			a{
+				color: @black;
+			}
+		}
+	}
+}
+.tabbable{
+	.nav-tabs{
+		.active{
+			a{
+				color: @black;
+				border-bottom: 5px solid @black !important;
+				font-size: 20px;
+			}
+		}
+		a{
+			color: #DEDEDE;
+			font-size: 20px;
+		}
+	}
+	.tab-content{
+		.text-right{
+			a{
+				color: @black;
+			}
+		}
+		.comments{
+			.art-left{
+				.art-left-txt-div{
+					.art-left-headline{
+						font-size: 20px;
+						a{
+							color: @black;
+						}
+					}
+				}
+			}
+		}
+	}
+}

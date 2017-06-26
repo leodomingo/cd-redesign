@@ -1,0 +1,142 @@
+//-------------------------------------------------------------
+// Sections -  Containing Reusable Styling and Displays
+//-------------------------------------------------------------
+//	  • A grouping of content that has been assembled as a 
+//	    result of their relationship to each other and the 
+//	    the page/content being displayed. Sections are 
+//	    generally accompanied with a heading
+//	    
+//	  • This is not to misinterpretted with layouts 
+//	    in layouts.less. The purpose of layouts is to provide
+//	    consistency in content display & organization without
+//	    any specific relevance.
+
+.col-lg-9.ad-fix-content {
+	ul.pagination {
+		margin: 10px auto;
+		display: table;
+	}
+	.section-top-story{
+		.section-recent{
+			.headline-block-grid{
+				.headline-list{
+					.hed-container{
+						.hed-headline{
+							a{
+								color: @black;
+								font-size: 16px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+// .rundown-head {
+// 	color: @color-main !important;
+// }
+
+.brandlink {
+	.brandlink-bar {
+		margin:0 0 15px 0;
+		background: @gray-lighter;
+		.container {
+			margin-right:-19px;
+			.row {
+				margin:0;
+				.about {
+					padding-right:20px;
+					padding-top:10px;
+				}
+			}
+		}
+		&.affix {
+			z-index: 999;
+			top: 0;
+		}
+		a.brand {
+			img {
+				height: 41px;
+			}
+		}
+		.about {
+			text-align: right;
+		}
+	}
+	.brandlink-nav {
+		max-height: 800px;
+		overflow-y: scroll;
+		.img-wrap {
+			max-height: 150px;
+			overflow: hidden;
+			margin-bottom: 20px;
+			img {
+				width: 100%;
+			}		
+		}
+	}
+	.brandlink-content {
+		.brandlink-nav.affix {
+			top: 56px;
+		}
+		.brandlink-body {
+			float: right;
+			.img-wrap {
+				max-height: 500px;
+				overflow: hidden;
+				img {
+					width: 100%;
+				}
+			}
+			h2 a {
+				color: @color-main;
+				margin-top: 18px;
+				font-size: 30px;
+				display: block;
+			}
+			h3 {
+				color: @color-main;
+				font-size: 18px;
+				line-height: 24px;
+				margin: 20px 0;
+			}
+		}
+	}
+	/* affixy things */
+	.affix-left {
+		position: fixed;
+		top: 60px;
+		width: 270px;
+	}
+	.body-counter {
+		margin-left: 290px;
+		padding-top: 40px;
+	}
+	/* nav things*/
+	.navbar-fixed-top {
+		left: auto;
+		right: auto;
+		.brand {
+			margin: 0;
+		}
+	}
+	.navbar-inner {
+		background-color: #CBCCCB;
+		background-image: none;
+		border-radius: 0;
+		.brand {
+			padding: 0;
+			img {
+				height: 41px;
+			}
+		}
+		.nav-collapse {
+			a {
+				color: @color-main;
+				line-height: 20px;
+			}
+			padding: 0;
+		}		
+	}
+}

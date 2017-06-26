@@ -1,0 +1,34 @@
+// -------------------------------------------------------
+//== Weather Icons - Used Alongside Gryphon Weather Plugin
+// -------------------------------------------------------
+//	Usage with Gryphon:
+//		1) Include the Following Prior to the HTML Code
+//			{% helper weather %}
+// 		2) Create the Icon with the Following HTML:
+// 			<i class="wi wi-{{weather}}"></i>
+// 			
+// 	Configuration Path:
+// 		"../variables/icons.less"
+
+	@font-face {
+	    font-family: '@{weather-icons-font-family}';
+	    src: url('@{weather-icons-path}/@{weather-icons-font-family}-regular-webfont.eot');
+	    src: url('@{weather-icons-path}/@{weather-icons-font-family}-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('@{weather-icons-path}/@{weather-icons-font-family}-regular-webfont.woff') format('woff'),
+	         url('@{weather-icons-path}/@{weather-icons-font-family}-regular-webfont.ttf') format('truetype'),
+	         url('@{weather-icons-path}/@{weather-icons-font-family}-regular-webfont.svg#weathericons-regular-webfontRg') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+	}
+
+	@thunderstorm:	"\f01e";
+	@rain:			"\f019";
+	@snow:			"\f01b";
+	@day-cloudy:	"\f002";
+	@day-sunny:		"\f00d";
+
+	.@{weather-icons-prefix}-Thunderstorms:before,	.@{weather-icons-prefix}-thunderstorms:before	{	content: @thunderstorm;	}
+	.@{weather-icons-prefix}-Rain:before,			.@{weather-icons-prefix}-rain:before			{	content: @rain;			}
+	.@{weather-icons-prefix}-Snow:before,			.@{weather-icons-prefix}-snow:before			{	content: @snow;			}
+	.@{weather-icons-prefix}-Cloudy:before,			.@{weather-icons-prefix}-cloudy:before			{	content: @day-cloudy;	}
+	.@{weather-icons-prefix}-Clear:before,			.@{weather-icons-prefix}-clear:before			{	content: @day-sunny;	}

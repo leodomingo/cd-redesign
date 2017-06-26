@@ -1,0 +1,807 @@
+
+
+
+    
+
+
+
+<!DOCTYPE html>
+<html>
+<!--
+   _____ _   _                    _
+  / ____| \ | |                  | |
+ | (___ |  \| |_      _____  _ __| | _____
+  \___ \| . ` \ \ /\ / / _ \| '__| |/ / __|
+  ____) | |\  |\ V  V / (_) | |  |   <\__ \
+ |_____/|_| \_| \_/\_/ \___/|_|  |_|\_\___/
+
+SNworks - Solutions by The State News - http://getsnworks.com
+fd
+-->
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="generator" content="Gryphon 20160208900 (Foundry 6.1-20150615001)" />
+        <meta name="viewport" content="width=device-width">
+        
+                <title>Simone McDonnell | The Cavalier Daily</title>
+
+<meta name="description" content="UVA's premier student-operated independent news organization and Charlottesville's oldest daily newspaper.">
+<meta name="twitter:site" content="@cavalierdaily">
+<meta property="og:site_name" content="The Cavalier Daily">
+
+
+	<meta property="og:title" content="Simone McDonnell | The Cavalier Daily - University of Virginia's Student Newspaper">
+	<meta property="og:type" content="website">
+	<meta property="og:description" content="">
+	<meta property="og:image" content="/assets/dist/img/fb-hidden-icon.jpg">
+<!-- END gryphon/main/meta.tpl -->
+                <link rel="apple-touch-icon" sizes="57x57" href="/assets/dist/img/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/dist/img/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/dist/img/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/dist/img/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/dist/img/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/dist/img/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/dist/img/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/dist/img/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/dist/img/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/assets/dist/img/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/assets/dist/img/favicons/favicon-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/assets/dist/img/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/assets/dist/img/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="mask-icon" href="/assets/dist/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="manifest" href="/assets/dist/img/favicons/manifest.json">
+<link rel="shortcut icon" href="/assets/dist/img/favicons/favicon.png">
+<meta name="apple-mobile-web-app-title" content="TheCavalierDaily">
+<meta name="application-name" content="TheCavalierDaily">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/assets/dist/img/favicons/mstile-144x144.png">
+<meta name="msapplication-config" content="/assets/dist/img/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+                <meta name="apple-mobile-web-app-title" content="The Cavalier Daily">
+        <meta name="application-name" content="The Cavalier Daily">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/assets/dist/img/favicons/mstile-144x144.png">
+        <meta name="msapplication-config" content="/assets/dist/img/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+
+                <script src="/assets/dist/js/master-min.js"></script>
+
+                
+                <link rel="stylesheet" type="text/css" media="screen, projection, print" href="/assets/dist/css/master.css" />
+
+                		
+
+			
+
+				<script src="/assets/dist/galleria/galleria-1.4.2.min.js"></script>
+		
+
+		
+
+				<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		
+
+			
+
+			
+
+			
+
+
+                
+                
+                    </head>
+
+    <body>
+                
+
+                <header>
+            <div class="container hidden-sm hidden-xs">
+                <div class="top-ads">
+                    <div class="row hidden-xs hidden-sm">
+                        <div class="col-md-12 col-lg-9 ad-fix-content">
+                            <!-- gryphon/ads/leaderboard.tpl -->
+
+<div id="leaderboard" class="grid_12 mb">
+	<img src="http://placehold.it/728x90">
+	<!-- <a href="#" class="close"></a>
+	<div class="mmb"></div> -->
+</div>
+                        </div>
+                        <div class="col-lg-3 ad-fix-ad hidden-md">
+                            <!-- gryphon/ads/leaderboard.tpl -->
+
+<div id="leaderboard" class="grid_12 mb">
+	<img src="http://placehold.it/300x90">
+	<!-- <a href="#" class="close"></a>
+	<div class="mmb"></div> -->
+</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row logo-row">
+                    <div class="col-sm-12">
+                        <a href="/"><img src="/assets/dist/img/cav-daily-logo.png" class="head-logo"></a>
+                                                <div class="weather-header">
+                                
+                        </div>
+                                            </div>
+                </div>
+            </div>
+                        <div class="nav-holder">
+                <nav class="navbar navbar-default" id="main-nav">
+                    <div class="container">
+                                            <div class="navbar-header">
+                                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                                                        <a class="navbar-brand hidden-lg hidden-md" href="/"><img src="/assets/dist/img/cav-daily-logo.png"></a>
+                        </div>
+
+                        <div id="navbar" class="collapse navbar-collapse navbar-collapse-main">
+                            <ul class="nav navbar-nav navbar-left">
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/section/news">News</a></li>
+                                <li><a href="/section/sports">Sports</a></li>
+                                <li><a href="/section/opinion">Opinion</a></li>
+                                <li><a href="/section/life">Life</a></li>
+                                <li><a href="/section/arts-entertainment">A&E</a></li>
+                                <li><a href="/section/focus">Focus</a></li>
+                                <li><a href="/section/health-science">H&S</a></li>
+                                <li><a href="/section/humor">Humor</a></li>
+                                <li><a href="/multimedia/">Photo</a></li>
+                                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/page/about">About</a></li>
+                                        <li><a href="/page/advertise">Advertise</a></li>
+                                        <li><a href="/page/code-of-ethics">Code of Ethics</a></li>
+                                        <li><a href="/page/comment-policy">Comment Policy</a></li>
+                                        <li><a href="/page/donate">Donate</a></li>
+                                        <li><a href="/page/join">Join</a></li>
+                                        <li><a href="/page/masthead">Masthead</a></li>
+                                        <li><a href="/page/permissions">Permissions</a></li>        
+                                        <li><a href="/page/subscribe">subscribe</a></li>
+                                        <li><a href="/page/tips">Tips</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown visible-md"><a class="dropdown-toggle" data-toggle="dropdown" href="#">+</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="active"><a href="/blog/">Blogs</a></li>
+                                                                                <li><a href="/section/brand-link">Brand Link</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown hidden-md"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Blogs</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/blog/fashion-fridays">Fashon Fridays</a></li>
+                                        <li><a href="/blog/movies-you-havent-seen-but-should">Movies You Haven't Seen, But Should</a></li>
+                                        <li><a href="/blog/weird-music-wednesdays">Weird Music Wednesdays</a></li>
+                                    </ul>
+                                </li>
+                                                                <li class="hidden-md" ><a href="/section/brand-link">Brand Link</a></li>
+                                <li><a href="/search/?a=1"><i class="fa fa-search"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                            </div>
+            
+        </header>
+            
+        
+                
+                
+
+            
+                
+                        
+                        
+    <div class="container page-main">
+        <div class="row">
+            <div class="col-lg-9 col-md-8 col-sm-12 ad-fix-content page-content">
+                <div class="author-about-display">
+                                        				<h1>Simone McDonnell</h1>
+
+		<hr class="spacer" />
+	
+		
+
+	
+		
+		
+                </div>
+
+                
+                                    <div class="row">
+                        <div class="col-xs-6">
+                            <h3 class="no-top-marg">Articles</h3>
+                        </div>
+                        <div class="col-xs-6 text-right">
+                            <a href="/search/?a=1&o=date&ty=article">More articles</a>
+                        </div>
+                    </div>
+                    
+		
+									
+					
+	<div class="row">
+		<div class="col-sm-12">
+														<article class="art-left">
+		<div class="row">
+			
+			<div class="col-xs-12 art-left-txt-div">
+				<h4  class="art-left-headline no-top-marg"><a href="http://cav.stage.getsnworks.com/article/2014/09/cville-corruption-investigation">Charlottesville continues to investigate corruption charges</a></h4 >
+
+				
+									<p class="article-abstract">
+						Charlottesville’s general registrar and a former electoral board member are facing several felony charges regarding the improper use of city-owned cellphones.
+					</p>
+									
+			</div>
+		</div>
+
+					<hr />
+		
+	</article>
+
+														<article class="art-left">
+		<div class="row">
+							<div class="col-xs-12 col-sm-4 art-left-img-div">
+																							<a href="http://cav.stage.getsnworks.com/article/2014/09/students-remember-911"><img src="https://s3.amazonaws.com/media.cav/7613_20140911911memorialservicekgrow121_croppedp.jpg" class="art-left-image" /></a>
+																												</div>
+			
+			<div class="col-xs-12 col-sm-8 art-left-txt-div">
+				<h4  class="art-left-headline no-top-marg has-photo"><a href="http://cav.stage.getsnworks.com/article/2014/09/students-remember-911">Students remember 9/11</a></h4 >
+
+				
+									<p class="article-abstract has-photo">
+						Nearly one hundred University students gathered last night in Minor Hall to commemorate the events of 9/11 during the second annual Never Forget ceremony. The University’s Young Americans for Freedom hosted the event along with the Burke Society, University Democrats and College Republicans.
+					</p>
+									
+			</div>
+		</div>
+
+					<hr />
+		
+	</article>
+
+														<article class="art-left">
+		<div class="row">
+							<div class="col-xs-12 col-sm-4 art-left-img-div">
+																							<a href="http://cav.stage.getsnworks.com/article/2014/05/sigma-nu-suspends-charter-of-university-chapter"><img src="https://s3.amazonaws.com/media.cav/6983_nssigmanujpappasp.jpg" class="art-left-image" /></a>
+																												</div>
+			
+			<div class="col-xs-12 col-sm-8 art-left-txt-div">
+				<h4  class="art-left-headline no-top-marg has-photo"><a href="http://cav.stage.getsnworks.com/article/2014/05/sigma-nu-suspends-charter-of-university-chapter">Sigma Nu suspends charter of University chapter</a></h4 >
+
+				
+									<p class="article-abstract has-photo">
+						Sigma Nu’s national leadership announced Wednesday it will suspend the charter of the fraternity’s Beta Chapter at the University. The University terminated its Fraternal Organization Agreement with Sigma Nu April 17.
+					</p>
+									
+			</div>
+		</div>
+
+					<hr />
+		
+	</article>
+
+														<article class="art-left">
+		<div class="row">
+							<div class="col-xs-12 col-sm-4 art-left-img-div">
+																							<a href="http://cav.stage.getsnworks.com/article/2014/04/sen-tim-kaine-lecture-concludes-decades-of-sabatos-intro-class-political-speakers"><img src="https://s3.amazonaws.com/media.cav/6844_nskainepdickiep.jpg" class="art-left-image" /></a>
+																												</div>
+			
+			<div class="col-xs-12 col-sm-8 art-left-txt-div">
+				<h4  class="art-left-headline no-top-marg has-photo"><a href="http://cav.stage.getsnworks.com/article/2014/04/sen-tim-kaine-lecture-concludes-decades-of-sabatos-intro-class-political-speakers">Sen. Tim Kaine lecture concludes decades of Sabato’s intro class political speakers</a></h4 >
+
+				
+									<p class="article-abstract has-photo">
+						Sen. Tim Kaine (D-VA) spoke to students in Politics Prof. Larry Sabato’s Introduction to American Politics class Monday — the last public official to speak in one of Sabato’s introductory classes after 35 years of teaching.
+					</p>
+									
+			</div>
+		</div>
+
+					<hr />
+		
+	</article>
+
+														<article class="art-left">
+		<div class="row">
+							<div class="col-xs-12 col-sm-4 art-left-img-div">
+																							<a href="http://cav.stage.getsnworks.com/article/2014/04/student-forcibly-robbed-on-grounds"><img src="https://s3.amazonaws.com/media.cav/6624_nshumphrey_dorm_jpappasp.jpg" class="art-left-image" /></a>
+																												</div>
+			
+			<div class="col-xs-12 col-sm-8 art-left-txt-div">
+				<h4  class="art-left-headline no-top-marg has-photo"><a href="http://cav.stage.getsnworks.com/article/2014/04/student-forcibly-robbed-on-grounds">Student robbed, assaulted on Grounds</a></h4 >
+
+				
+									<p class="article-abstract has-photo">
+						A University student was forcibly robbed near Humphreys House this Saturday at approximately 5:40 am by an unidentified suspect.
+					</p>
+									
+			</div>
+		</div>
+
+					<hr />
+		
+	</article>
+
+														<article class="art-left">
+		<div class="row">
+							<div class="col-xs-12 col-sm-4 art-left-img-div">
+																							<a href="http://cav.stage.getsnworks.com/article/2014/04/huguely-appeals-murder-conviction-to-virginia-supreme-court"><img src="https://s3.amazonaws.com/media.cav/6630_nshuguelycharlottesvillepolicedepartmentp.jpg" class="art-left-image" /></a>
+																												</div>
+			
+			<div class="col-xs-12 col-sm-8 art-left-txt-div">
+				<h4  class="art-left-headline no-top-marg has-photo"><a href="http://cav.stage.getsnworks.com/article/2014/04/huguely-appeals-murder-conviction-to-virginia-supreme-court">Huguely appeals murder conviction to Virginia Supreme Court</a></h4 >
+
+				
+									<p class="article-abstract has-photo">
+						Former University lacrosse player George W. Huguely V, who was convicted of killing his ex-girlfriend Yeardley Love in 2012, appealed his second-degree murder conviction to the Virginia Supreme Court Monday, according to NBC29. Huguely was denied a rehearing of his appeal Saturday after a Virginia Court of Appeals affirmed his conviction in early March.
+					</p>
+									
+			</div>
+		</div>
+
+					<hr />
+		
+	</article>
+
+														<article class="art-left">
+		<div class="row">
+							<div class="col-xs-12 col-sm-4 art-left-img-div">
+																							<a href="http://cav.stage.getsnworks.com/article/2014/03/honor-committee-launches-honor-week"><img src="https://s3.amazonaws.com/media.cav/6326_nshonormbronfinp.jpg" class="art-left-image" /></a>
+																												</div>
+			
+			<div class="col-xs-12 col-sm-8 art-left-txt-div">
+				<h4  class="art-left-headline no-top-marg has-photo"><a href="http://cav.stage.getsnworks.com/article/2014/03/honor-committee-launches-honor-week">Honor Committee launches Honor Week</a></h4 >
+
+				
+									<p class="article-abstract has-photo">
+						Sunday marked the beginning of Honor Week, an education and outreach initiative sponsored by the Honor Committee. With a packed schedule of giveaways, discussions and other events, the Committee hopes to increase student participation in the community and highlight new honor-sponsored programs.
+					</p>
+									
+			</div>
+		</div>
+
+					<hr />
+		
+	</article>
+
+														<article class="art-left">
+		<div class="row">
+			
+			<div class="col-xs-12 art-left-txt-div">
+				<h4  class="art-left-headline no-top-marg"><a href="http://cav.stage.getsnworks.com/article/2014/03/charlottesville-charity-to-open-human-trafficking-shelter">Charlottesville charity to open human trafficking shelter</a></h4 >
+
+				
+									<p class="article-abstract">
+						A new Charlottesville charity plans to build the first long-term shelter for human trafficking survivors in the city by next January.
+					</p>
+									
+			</div>
+		</div>
+
+					<hr />
+		
+	</article>
+
+														<article class="art-left">
+		<div class="row">
+							<div class="col-xs-12 col-sm-4 art-left-img-div">
+																							<a href="http://cav.stage.getsnworks.com/article/2014/03/university-cancels-class-mon-march-3-2014"><img src="https://s3.amazonaws.com/media.cav/6016_photo_34p.JPG" class="art-left-image" /></a>
+																												</div>
+			
+			<div class="col-xs-12 col-sm-8 art-left-txt-div">
+				<h4  class="art-left-headline no-top-marg has-photo"><a href="http://cav.stage.getsnworks.com/article/2014/03/university-cancels-class-mon-march-3-2014">University cancels classes</a></h4 >
+
+				
+									<p class="article-abstract has-photo">
+						The University announced it had cancelled classes at 6:00 a.m. on Monday, March 3. The cancellation marks the third instructional day the University has lost to snow this academic year.
+					</p>
+									
+			</div>
+		</div>
+
+					<hr />
+		
+	</article>
+
+					</div>
+	</div>
+
+
+                
+
+                
+                
+                
+                
+            </div>
+            <div class="col-lg-3 col-md-4 hidden-sm hidden-xs ad-fix-ad">
+                
+<div class="social-header">
+    <a href="http://www.facebook.com/CavalierDaily" id="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+    <a href="https://twitter.com/cavalierdaily" id="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+    <a href="https://instagram.com/cavalierdaily/" id="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+    <a href="http://www.youtube.com/user/CavalierDaily" id="youtube" target="_blank"><i class="fa fa-youtube-play"></i></a>
+    <a href="/page/feeds" id="rss"><i class="fa fa-rss"></i></a>
+</div>
+
+<div class="">
+	<img src="http://placehold.it/300x250">
+	</div>
+
+	<div class="sidebar-rundown">
+		<h3 class="rundown-head"><a href="/section/opinion">Opinion</a></h3>
+		
+		
+						
+					
+	<div class="row">
+		<div class="col-sm-12">
+														<article class="art-left">
+		<div class="row">
+			
+			<div class="col-xs-12 art-left-txt-div">
+				<h5  class="art-left-headline no-top-marg"><a href="http://cav.stage.getsnworks.com/article/2014/09/climate-change">Climate change</a></h5 >
+
+															<p class="no-top-marg">
+							<span class="dateline">
+																										By <a href="http://cav.stage.getsnworks.com/staff/managing-board">Managing Board</a>
+																		|
+															</span>
+							<span class="time-since">9/22/2014  8:36am</span>
+						</p>
+									
+				
+			</div>
+		</div>
+
+		
+	</article>
+
+														<article class="art-left">
+		<div class="row">
+			
+			<div class="col-xs-12 art-left-txt-div">
+				<h5  class="art-left-headline no-top-marg"><a href="http://cav.stage.getsnworks.com/article/2014/09/bernstein-careless-conservatism">BERNSTEIN: Careless conservativism</a></h5 >
+
+															<p class="no-top-marg">
+							<span class="dateline">
+																										By <a href="http://cav.stage.getsnworks.com/staff/dani-bernstein">Dani Bernstein</a>
+																		|
+															</span>
+							<span class="time-since">9/22/2014  9:20am</span>
+						</p>
+									
+				
+			</div>
+		</div>
+
+		
+	</article>
+
+														<article class="art-left">
+		<div class="row">
+			
+			<div class="col-xs-12 art-left-txt-div">
+				<h5  class="art-left-headline no-top-marg"><a href="http://cav.stage.getsnworks.com/article/2014/09/broom-progress-past-print">BROOM: Progress past print</a></h5 >
+
+															<p class="no-top-marg">
+							<span class="dateline">
+																										By <a href="http://cav.stage.getsnworks.com/staff/christopher-broom">Christopher Broom</a>
+																		|
+															</span>
+							<span class="time-since">9/22/2014  12:12am</span>
+						</p>
+									
+				
+			</div>
+		</div>
+
+		
+	</article>
+
+														<article class="art-left">
+		<div class="row">
+			
+			<div class="col-xs-12 art-left-txt-div">
+				<h5  class="art-left-headline no-top-marg"><a href="http://cav.stage.getsnworks.com/article/2014/09/dont-marginalize-survivors-of-sexual-assault">?WYNN: Don’t marginalize survivors of sexual assault </a></h5 >
+
+															<p class="no-top-marg">
+							<span class="dateline">
+																										By <a href="http://cav.stage.getsnworks.com/staff/brendan-maupin-wynn">Brendan Maupin Wynn </a>
+																		|
+															</span>
+							<span class="time-since">9/22/2014  11:01am</span>
+						</p>
+									
+				
+			</div>
+		</div>
+
+		
+	</article>
+
+														<article class="art-left">
+		<div class="row">
+			
+			<div class="col-xs-12 art-left-txt-div">
+				<h5  class="art-left-headline no-top-marg"><a href="http://cav.stage.getsnworks.com/article/2014/09/by-the-numbers">?By the numbers</a></h5 >
+
+															<p class="no-top-marg">
+							<span class="dateline">
+																										By <a href="http://cav.stage.getsnworks.com/staff/managing-board">Managing Board</a>
+																		|
+															</span>
+							<span class="time-since">9/19/2014  1:59am</span>
+						</p>
+									
+				
+			</div>
+		</div>
+
+		
+	</article>
+
+					</div>
+	</div>
+
+
+	</div>
+
+<div>
+	
+
+
+	
+    	
+	
+<div class="sidebar-events">
+	<h3 class="rundown-head"><a href="/calendar/">UPCOMING EVENTS</a></h3>
+	<ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
+		<li class="active"><a href="#d-07" data-toggle="tab">WED<br />7</a></li>
+		<li><a href="#d-08" data-toggle="tab">THU<br />8</a></li>
+		<li><a href="#d-09" data-toggle="tab">FRI<br />9</a></li>
+		<li><a href="#d-10" data-toggle="tab">SAT<br />10</a></li>
+	</ul>
+	<div id="my-tab-content" class="tab-content">
+		<div id="d-07" class="tab-pane active">
+							<p>No events for this date</p>
+				</div>
+		
+		<div id="d-08" class="tab-pane">
+							<p>No events for this date</p>
+				</div>
+		
+		<div id="d-09" class="tab-pane">
+							<p>No events for this date</p>
+				</div>
+		
+		<div id="d-10" class="tab-pane">
+							<p>No events for this date</p>
+				</div>
+		<div class="text-right"><a href="/calendar/">FULL CALENDAR ></i></a></div>
+	</div>
+</div>
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('#tabs').tab();
+    });
+</script></div>
+
+<div class="">
+	<img src="http://placehold.it/300x250">
+	</div>
+
+<div class="tabbable">
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="#1" data-toggle="tab">POPULAR</a></li>
+		<li><a href="#2" data-toggle="tab">RECENT</a></li>
+			</ul>
+	<div class="tab-content">
+		
+				<div class="tab-pane active stories-tab" id="1">
+			
+		
+						
+					
+	<div class="row">
+		<div class="col-sm-12">
+					</div>
+	</div>
+
+
+		</div>
+
+				<div class="tab-pane comments" id="2">
+	        
+		
+						
+					
+	<div class="row">
+		<div class="col-sm-12">
+														<article class="art-left">
+		<div class="row">
+			
+			<div class="col-xs-12 art-left-txt-div">
+				<h4  class="art-left-headline no-top-marg"><a href="http://cav.stage.getsnworks.com/article/2014/09/class-giving-campaign-begins">Class Giving Committee kicks off 2015 campaign</a></h4 >
+
+															<p class="no-top-marg">
+							<span class="dateline">
+																										By <a href="http://cav.stage.getsnworks.com/staff/kevin-hare">Kevin Hare</a>
+																														 and 											<a href="http://cav.stage.getsnworks.com/staff/sawan-patel">Sawan Patel</a>
+																												|
+															</span>
+							<span class="time-since">9/22/2014  2:21am</span>
+						</p>
+									
+				
+			</div>
+		</div>
+
+		
+	</article>
+
+														<article class="art-left">
+		<div class="row">
+			
+			<div class="col-xs-12 art-left-txt-div">
+				<h4  class="art-left-headline no-top-marg"><a href="http://cav.stage.getsnworks.com/article/2014/09/climate-change">Climate change</a></h4 >
+
+															<p class="no-top-marg">
+							<span class="dateline">
+																										By <a href="http://cav.stage.getsnworks.com/staff/managing-board">Managing Board</a>
+																		|
+															</span>
+							<span class="time-since">9/22/2014  8:36am</span>
+						</p>
+									
+				
+			</div>
+		</div>
+
+		
+	</article>
+
+														<article class="art-left">
+		<div class="row">
+			
+			<div class="col-xs-12 art-left-txt-div">
+				<h4  class="art-left-headline no-top-marg"><a href="http://cav.stage.getsnworks.com/article/2014/09/bernstein-careless-conservatism">BERNSTEIN: Careless conservativism</a></h4 >
+
+															<p class="no-top-marg">
+							<span class="dateline">
+																										By <a href="http://cav.stage.getsnworks.com/staff/dani-bernstein">Dani Bernstein</a>
+																		|
+															</span>
+							<span class="time-since">9/22/2014  9:20am</span>
+						</p>
+									
+				
+			</div>
+		</div>
+
+		
+	</article>
+
+														<article class="art-left">
+		<div class="row">
+			
+			<div class="col-xs-12 art-left-txt-div">
+				<h4  class="art-left-headline no-top-marg"><a href="http://cav.stage.getsnworks.com/article/2014/09/broom-progress-past-print">BROOM: Progress past print</a></h4 >
+
+															<p class="no-top-marg">
+							<span class="dateline">
+																										By <a href="http://cav.stage.getsnworks.com/staff/christopher-broom">Christopher Broom</a>
+																		|
+															</span>
+							<span class="time-since">9/22/2014  12:12am</span>
+						</p>
+									
+				
+			</div>
+		</div>
+
+		
+	</article>
+
+														<article class="art-left">
+		<div class="row">
+			
+			<div class="col-xs-12 art-left-txt-div">
+				<h4  class="art-left-headline no-top-marg"><a href="http://cav.stage.getsnworks.com/article/2014/09/oneuva-reaches-overseas">ONE@UVA reaches overseas</a></h4 >
+
+															<p class="no-top-marg">
+							<span class="dateline">
+																										By <a href="http://cav.stage.getsnworks.com/staff/danaite-soquar">Danaite Soquar</a>
+																		|
+															</span>
+							<span class="time-since">9/21/2014  11:29pm</span>
+						</p>
+									
+				
+			</div>
+		</div>
+
+		
+	</article>
+
+					</div>
+	</div>
+
+
+		</div>
+					</div>
+</div>
+
+<div class="">
+	<img src="http://placehold.it/300x250">
+	</div>
+
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCavalierDaily%2F&tabs=timeline&width=300&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+
+<div class="">
+	<img src="http://placehold.it/300x250">
+	</div>
+
+            </div>
+        </div>
+    </div>
+
+
+                        
+                
+
+                <footer>
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-sm-12">
+                        <ul class="unstyled inline foot-nav">
+                            <li><a href="/page/about">about</a></li>
+                            <li><a href="/page/masthead">masthead</a></li>
+                            <li><a href="/page/join">join</a></li>
+                            <li><a href="/page/advertise">advertise</a></li>
+                            <li><a href="/classifieds">classifieds</a></li>
+                            <li><a href="/page/permissions">permissions</a></li>
+                            <li><a href="/page/donate">donate</a></li>
+                            <li><a href="/page/code-of-ethics">code&nbsp;of&nbsp;ethics</a></li>
+                            <li><a href="/page/tips">tips</a></li>
+                            <li><a href="/page/comment-policy">comment&nbsp;policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="row text-center">
+                    <p>Copyright <span id="copyright-year"></span> The Cavalier Daily. All rights reserved.</p>
+                    <p class="snw">Powered by <a href="http://getsnworks.com" target="_blank"><img src="http://cdn.thesn.net/gAssets/SNworks.png" class="snworks"/></a> Solutions by The State News.</p>
+                </div>
+                <hr class="dashed">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 foot-logo-container pull-left">
+                        <a href="/">
+                            <img src="/assets/dist/img/tmp-logo-white.png" class="foot-logo">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 social">
+                        <a href="http://www.facebook.com/CavalierDaily" id="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/cavalierdaily" id="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                        <a href="https://instagram.com/cavalierdaily/" id="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a href="http://www.youtube.com/user/CavalierDaily" id="youtube" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                        <a href="/page/feeds" id="rss"><i class="fa fa-rss"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+                
+    </body>
+</html>
+
+<!-- 45 1.7361769676208 -->

@@ -1,0 +1,230 @@
+// --------------------------------------------------
+//== Typography
+// --------------------------------------------------
+//## Font, line-height, and color for body text, headings, components, and more.
+//	 • http://getbootstrap.com/css/#type
+//	 
+//	 File Locations of Variables Used Below:
+//	 	variables/
+//	 								- 
+
+
+	// --------------------------------------------------
+	//== FONTS
+	// --------------------------------------------------
+	
+		// --------------------------------------------------
+		// Bootstrap Configs
+		// --------------------------------------------------
+			// Site Fonts
+		
+			// @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+			// @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600);
+			@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
+			@import url(https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,600,700);
+			@sans-serif-font: 			 'Cormorant Garamond', sans-serif;
+			@serif-font: 				 'Lora', serif;
+
+
+			@font-family-sans-serif:						@sans-serif-font;
+			@font-family-serif:								@serif-font; // "Roboto", Helvetica, Arial, sans-serif;
+			@font-family-serif-alt:							Georgia, "Times New Roman", Times, serif;
+
+			//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+			@font-family-monospace:							Menlo, Monaco, Consolas, "Courier New", monospace;
+			@font-family-base:								@font-family-sans-serif;
+
+
+		// --------------------------------------------------
+		// Additional Configs
+		// --------------------------------------------------
+		
+
+
+
+	// --------------------------------------------------
+	//== BASE/DEFAULT FONT STYLES
+	// --------------------------------------------------
+		@font-ratio-xxl:									2.25;
+		@font-ratio-xl:										1.70;
+		@font-ratio-large:									1.25;
+		@font-ratio-small:									0.8;
+		@font-ratio-xs:										0.625;
+
+		//** Unit-less `line-height` for use in components like buttons.
+		@line-height-computed:								1.428571429; // 20/14
+	
+		// --------------------------------------------------
+		// Bootstrap Configs
+		// --------------------------------------------------
+			@font-size-base:								14px;
+			@font-size-xxl:									ceil((@font-size-base * @font-ratio-xxl));			// ~32px
+			@font-size-xl:									ceil((@font-size-base * @font-ratio-xl));			// ~24px
+			@font-size-large:								ceil((@font-size-base * @font-ratio-large));		// ~16px
+			@font-size-small:								ceil((@font-size-base * @font-ratio-small));		// ~10px
+			@font-size-xs:									ceil((@font-size-base * @font-ratio-xs));			// ~8px
+			@font-size:										@font-size-base;
+
+			//** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
+			@line-height-base:								floor((@font-size-base * @line-height-computed));	// ~20px
+			@line-height-xxl:								floor((@font-size-xxl * @line-height-computed));	// ~45px
+			@line-height-xl:								floor((@font-size-xl * @line-height-computed));		// ~34px
+			@line-height-large:								floor((@font-size-large * @line-height-computed));	// ~22px
+			@line-height-small:								floor((@font-size-small * @line-height-computed));	// ~14px
+			@line-height-xs:								floor((@font-size-xs * @line-height-computed));		// ~11px
+			@line-height:									@line-height-base;
+
+		// --------------------------------------------------
+		// Additional Configs
+		// --------------------------------------------------
+		
+		
+		
+		
+		
+
+	// --------------------------------------------------
+	//== TEXT
+	// --------------------------------------------------
+		@text-ratio:										1.00;
+
+		// --------------------------------------------------
+		// Additional Configs
+		// --------------------------------------------------
+			@text-size-base:								@font-size-base;
+			@text-size-large:								@font-size-large;
+			@text-size-small:								@font-size-small;
+			@text-size:										@text-size-base;
+
+			// VARS BELOW NEED SET & PUT IN USE
+			@text-font-family:								inherit;
+			@text-font-weight:								700;
+			@text-color:									@color-inverse-alt;
+
+
+
+	// --------------------------------------------------
+	//== HEADINGS
+	// --------------------------------------------------
+		@heading-ratio:										1.40;
+
+		@heading-line-height-computed:						1.15;
+	
+		// --------------------------------------------------
+		// Bootstrap Configs
+		// --------------------------------------------------
+			@h1-font-size:									floor((@font-size-xxl * @heading-ratio));		// ~48px
+			@h2-font-size:									floor((@font-size-xl * @heading-ratio));		// ~32px
+			@h3-font-size:									ceil((@font-size-large * @heading-ratio));		// ~24px
+			@h4-font-size:									ceil((@font-size-base * @heading-ratio));		// ~21px
+			@h5-font-size:									ceil(@font-size-small * @heading-ratio);		// ~15px
+			@h6-font-size:									ceil((@font-size-xs * @heading-ratio));			// ~12px
+
+			@h1-line-height:								ceil((@h1-font-size * @heading-line-height-computed));		// ~56px
+			@h2-line-height:								floor((@h2-font-size * @heading-line-height-computed));		// ~36px
+			@h3-line-height:								ceil((@h3-font-size * @heading-line-height-computed));		// ~28px
+			@h4-line-height:								floor((@h4-font-size * @heading-line-height-computed));		// ~24px
+			@h5-line-height:								floor((@h5-font-size * @heading-line-height-computed));		// ~18px
+			@h6-line-height:								floor((@h6-font-size * @heading-line-height-computed));		// ~14px
+
+			// VARS BELOW NEED SET & PUT IN USE
+			@headings-font-family:							inherit;
+			@headings-font-weight:							700;
+			@headings-color:								inherit;
+
+			// VAR BELOW NEEDS REPLACED THROUGHOUT LESS FILES
+			@headings-line-height:							1.1;
+
+
+
+		// --------------------------------------------------
+		// Additional Configs
+		// --------------------------------------------------
+
+
+
+
+
+
+	// --------------------------------------------------
+	//== LINKS
+	// --------------------------------------------------
+		@link-ratio:										1.00;
+
+
+		// --------------------------------------------------
+		// Additional Configs
+		// --------------------------------------------------
+			// Default Links - Generally Used within Content
+				@link-size-base:								@font-size-base;
+				@link-size-large:								@font-size-large;
+				@link-size-small:								@font-size-small;
+				@link-size:										@link-size-base;
+
+				@link-color-main:								@color-main;
+				@link-color-alt:								@color-inverse;
+				@link-color-secondary:							@color-tertiary;
+
+			// Heading Links - Used by Dominant Content Displays / Top Stories / Carousel Headings / etc.
+				@link-heading-size-base:						inherit;
+				@link-heading-size-h1:							inherit;
+				@link-heading-size-h2:							inherit;
+				@link-heading-size-h3:							inherit;
+				@link-heading-size-h4:							inherit;
+				@link-heading-size-h5:							inherit;
+				@link-heading-size-h6:							inherit;
+
+				@link-heading-color-main:						@color-main;
+				@link-heading-color-alt:						@color-tertiary;
+				@link-heading-color-secondary:					@color-inverse;
+
+			// Grid/List Links - Used in Sections, Media, & Article Grids/Lists ie. "What's Hot", "Related Media", "Recent Articles"
+				@link-grid-size-base:							inherit;
+				@link-grid-size-large:							inherit;
+				@link-grid-size-small:							inherit;
+
+				@link-grid-color-main:							@color-main;
+				@link-grid-color-alt:							@color-tertiary;
+				@link-grid-color-secondary:						@color-inverse;
+
+			// Site Navigation Links - Links Used in Sidebars, Headers, Footers, Dropdown Meus, etc..
+				@link-nav-size-base:							inherit;
+				@link-nav-size-large:							inherit;
+				@link-nav-size-small:							inherit;
+
+				@link-nav-color-main:							@color-inverse;
+				@link-nav-color-alt:							@color-tertiary;
+				@link-nav-color-secondary:						@color-main;
+
+			// Misc. - Styling that is Used Throughout the Site w/o Fitting into any of the above
+
+
+
+
+	// --------------------------------------------------
+	//== MISC.
+	// --------------------------------------------------
+	
+		// --------------------------------------------------
+		// Bootstrap Configs
+		// --------------------------------------------------
+			//** Horizontal offset for forms and lists.
+			@component-offset-horizontal:					180px;
+			//** Text muted color
+			@text-muted:									@gray-light;
+			//** Abbreviations and acronyms border color
+			@abbr-border-color:								@gray-light;
+			//** Headings small color
+			@headings-small-color:							@gray-light;
+			//** Blockquote small color
+			@blockquote-small-color:						@gray-light;
+			//** Blockquote font size
+			@blockquote-font-size:							(@font-size-base * 1.25);
+			//** Blockquote border color
+			@blockquote-border-color:						@gray-lightest;
+			//** Page header border color
+			@page-header-border-color:						@gray-lightest;
+			//** Width of horizontal description list titles
+			@dl-horizontal-offset:							@component-offset-horizontal;
+			//** Horizontal line color.
+			@hr-border:										@gray-lightest;

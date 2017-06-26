@@ -1,0 +1,180 @@
+//-------------------------------------------------------------
+//	Main / HomePage Container Styling
+//-------------------------------------------------------------
+//	 • 
+
+
+	//-------------------------------------------------------------
+	//	Main Content Container
+	//-------------------------------------------------------------
+	//	 • The page displayed will coincide with the class name 
+	//	   also attached to the .content-container HTML container
+	//	   so the pages unique & specific styling won't affect the
+	//	   styling of other displays
+
+	.top-ads {
+		margin-top: 40px;
+	}
+	.main-content {
+		.ad-fix-content {
+			padding-right: 50px;
+            .dom-hed-inside{
+                height: 100%;
+            }
+            .art-left{
+                .art-left-txt-div{
+                    .art-left-headline{
+                        font-size: 24px;
+                        a{
+                            color: @black;
+                        }
+                    }
+                    .article-abstract{
+                        font-size: 16px;
+                    }
+                }
+            }
+            .more-section{
+                a{
+                    color: @black;
+                }
+            }
+		}
+		.sidebar {
+			& > div {
+				margin-bottom: 40px;
+			}
+		}
+	}
+	.row.lead-story-row {
+		margin-bottom: 30px;
+		.dom-hed-inside-headline {
+			a {
+				font-family: @sans-serif-font;
+			}
+		}
+	}
+	.left-col {
+		border-right: 1px #ccc solid;
+	}
+	.row.main-content {
+		margin-top: 30px; // To separate from navbar/breaking box.
+	}
+	.row.breaking-box {
+		margin-bottom:25px;
+		font-family: @sans-serif-font;
+		line-height: 3em;
+		.breaking-header {
+			text-transform: uppercase;
+			background: @black;
+			color: @white;
+			font-size: 20px;
+			padding: 10px;
+			font-weight: 700;
+		}
+		.breaking-body {
+			margin-left:-4px;
+			background: #DEDEDE;
+			font-size: 20px;
+			padding: 10px;
+			font-weight: 500;
+            a{
+                color: @black;
+            }
+		}
+	}
+	.row.section-top{
+		.section-top-story {
+			border-bottom: 1px solid #ccc;
+			padding-bottom: 20px;
+			.section-recent {
+				border-left: 1px solid #ccc;
+				h4 {
+					border-bottom: 1px solid #ccc;
+					padding-bottom: 10px;
+				}
+				.headline-list {
+					li p {
+						font-weight: 700;
+					}
+				}
+			}
+		}
+	}
+
+	.blog-front {
+		img {
+			max-width: 100%;
+		}
+		.blog-preview {
+			p {
+				margin-top: 5px;
+				margin-bottom: 5px;
+			}
+		}
+		.share-boxes.unstyled.inline {
+			margin-top: 20px;
+		}
+	}
+
+	.search-front {
+		.order-controls {
+			.controls {
+				margin-left: 5%;
+			}
+		}
+	}
+
+	.show-more {
+        text-align:left;
+        display: block;
+        // border-top:1px solid #666;
+
+    	.show-more-link {
+            font-size: 25px;
+            color:@black;
+            cursor:pointer;
+            
+            font-weight: 700;
+            img.load-bar {
+                display:none;
+            }
+
+            .load-label {
+                font-weight: 500;
+                font-size: 16px;
+            }
+
+            &.loading {
+
+                img.load-bar {
+                    display:initial;
+                }
+
+                span {
+                    display:none;
+                }
+            }
+            &:active,
+            &:focus,
+            &:hover {
+            	outline: 0;
+            	color: @black;
+            }
+        }
+    }
+
+    .show-more,
+    .article-loader-complete {
+        margin:20px 0px;
+        h5 {
+            font-weight:500;
+            font-size:16px;
+        }
+    }
+
+    .article-loader-complete {
+        border-top:2px solid #666;
+    }
+
+	

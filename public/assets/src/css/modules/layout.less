@@ -1,0 +1,102 @@
+// //-------------------------------------------------------------
+// // Layout - Sections Containing Reusable Styling and Displays
+// //-------------------------------------------------------------
+// //	  • Things that could potentially come out of specific layouts (maybe):
+// // 			aside.byline
+// //    		.abstract (will need to make sure all classes are counted for (such as .article-abstract))
+// // 			.share-button
+// //
+// //	  • // Ribbon         - the section tag that appears at top left corner of homepage pictures
+// //	  • // Articles       - for the individual <article> tags
+// //	  • // Grids and Rows - for reused blocks such as the very top 4 on homepage (also on bottom of home and section pages)
+// //	  • 
+article {
+	a{
+		img {
+			// width: 100%;
+			max-width: 100%;
+		}
+	}
+}
+
+article span.dateline, span.time-since, .article-abstract {
+	font-size: 16px;
+}
+
+article.art-left {
+	margin-bottom: 15px;
+	.art-left-img-div {}
+	.art-left-txt-div {
+		font-family: @sans-serif-font;
+		.art-left-headline {
+			margin-bottom: 5px;
+			font-size: 32px;
+			h4 {
+				font-size: 32px;
+			}
+			a {
+				color: @color-main;
+			}
+		}
+		p.no-top-marg {
+			color: @color-tertiary;
+			font-size: 14px;
+			margin-bottom: 5px;
+			a {
+				color: @color-secondary;
+			}
+		}
+		.article-abstract {
+			font-family: @sans-serif-font;
+			color: @color-tertiary-dark;
+			font-size: 20px;
+			margin-top: 0;
+		}
+	}
+}
+article.dom-hed-inside{
+	position: relative;
+	height: 500px;
+	overflow:hidden;
+	background: @color-main;
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+	.dom-hed-inside-text {
+		position: absolute;
+		background: rgba(0,0,0,0.5);
+		padding: 30px;
+		bottom: 0;
+		width: 100%;
+		.dom-hed-inside-headline {
+			font-size: 36px;
+			a {
+				color: @white;
+			}
+		}
+		.dateline {
+			color: #cacaca;
+			font-size: 14px;
+			a {
+				color:#cacaca;
+			}
+		}
+	}
+}
+.row.brand-link-row {
+	margin-bottom: 15px;
+	.brand-link{
+		background: #DEDEDE;
+		padding: 20px 15px;
+	}
+}
+.row.article-related {
+	margin-bottom:20px;
+	article.art-above {
+		.art-above-img-div {
+			height: 150px;
+			overflow: hidden;
+		}
+	}
+}

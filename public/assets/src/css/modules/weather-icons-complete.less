@@ -1,0 +1,464 @@
+/*!
+ *  Weather Icons 1.3
+ *  Updated November 30th, 2014
+ *  Weather themed icons for Bootstrap
+ *  ------------------------------------------------------------------------------
+* Maintained at http://erikflowers.github.io/weather-icons
+ *  http://twitter.com/Erik_UX
+ *
+ *  License
+ *  ------------------------------------------------------------------------------
+ *  - Fpmt licensed under SIL OFL 1.1 -
+ *    http://scripts.sil.org/OFL
+ *  - CSS and LESS are licensed under MIT License -
+ *    http://opensource.org/licenses/mit-license.html
+ *  - Documentation licensed under CC BY 3.0 -
+ *    http://creativecommons.org/licenses/by/3.0/
+ *  - Inspired by and works great as a companion with Font Awesome
+ *    "Font Awesome by Dave Gandy - http://fontawesome.io"
+ *
+ *  Weather Icons Bootstrap Package Author - Erik Flowers - erik@helloerik.com
+ *  ------------------------------------------------------------------------------
+ *  Email: erik@helloerik.com
+ *  Twitter: http://twitter.com/Erik_UX
+ */
+
+ // GLYPH NAMES
+ @day-cloudy-gusts:            "\f000";
+ @day-cloudy-windy:            "\f001";
+ @day-cloudy:                  "\f002";
+ @day-fog:                     "\f003";
+ @day-hail:                    "\f004";
+ @day-lightning:               "\f005";
+ @day-rain-mix:                "\f006";
+ @day-rain-wind:               "\f007";
+ @day-rain:                    "\f008";
+ @day-showers:                 "\f009";
+ @day-snow:                    "\f00a";
+ @day-sprinkle:                "\f00b";
+ @day-sunny-overcast:          "\f00c";
+ @day-sunny:                   "\f00d";
+ @day-storm-showers:           "\f00e";
+ @day-thunderstorm:            "\f010";
+ @cloudy-gusts:                "\f011";
+ @cloudy-windy:                "\f012";
+ @cloudy:                      "\f013";
+ @fog:                         "\f014";
+ @hail:                        "\f015";
+ @lightning:                   "\f016";
+ @rain-mix:                    "\f017";
+ @rain-wind:                   "\f018";
+ @rain:                        "\f019";
+ @showers:                     "\f01a";
+ @snow:                        "\f01b";
+ @sprinkle:                    "\f01c";
+ @storm-showers:               "\f01d";
+ @thunderstorm:                "\f01e";
+ @windy:                       "\f021";
+ @night-alt-cloudy-gusts:      "\f022";
+ @night-alt-cloudy-windy:      "\f023";
+ @night-alt-hail:              "\f024";
+ @night-alt-lightning:         "\f025";
+ @night-alt-rain-mix:          "\f026";
+ @night-alt-rain-wind:         "\f027";
+ @night-alt-rain:              "\f028";
+ @night-alt-showers:           "\f029";
+ @night-alt-snow:              "\f02a";
+ @night-alt-sprinkle:          "\f02b";
+ @night-alt-storm-showers:     "\f02c";
+ @night-alt-thunderstorm:      "\f02d";
+ @night-clear:                 "\f02e";
+ @night-cloudy-gusts:          "\f02f";
+ @night-cloudy-windy:          "\f030";
+ @night-cloudy:                "\f031";
+ @night-hail:                  "\f032";
+ @night-lightning:             "\f033";
+ @night-rain-mix:              "\f034";
+ @night-rain-wind:             "\f035";
+ @night-rain:                  "\f036";
+ @night-showers:               "\f037";
+ @night-snow:                  "\f038";
+ @night-sprinkle:              "\f039";
+ @night-storm-showers:         "\f03a";
+ @night-thunderstorm:          "\f03b";
+ @celsius:                     "\f03c";
+ @cloud-down:                  "\f03d";
+ @cloud-refresh:               "\f03e";
+ @cloud-up:                    "\f040";
+ @cloud:                       "\f041";
+ @degrees:                     "\f042";
+ @down-left:                   "\f043";
+ @down:                        "\f044";
+ @fahrenheit:                  "\f045";
+ @horizon-alt:                 "\f046";
+ @horizon:                     "\f047";
+ @left:                        "\f048";
+ @_reserved_:                  "\f049";
+ @night-fog:                   "\f04a";
+ @refresh-alt:                 "\f04b";
+ @refresh:                     "\f04c";
+ @right:                       "\f04d";
+ @sprinkles:                   "\f04e";
+ @strong-wind:                 "\f050";
+ @sunrise:                     "\f051";
+ @sunset:                      "\f052";
+ @thermometer-exterior:        "\f053";
+ @thermometer-internal:        "\f054";
+ @thermometer:                 "\f055";
+ @tornado:                     "\f056";
+ @up-right:                    "\f057";
+ @up:                          "\f058";
+ @wind-west:                   "\f059";
+ @wind-south-west:             "\f05a";
+ @wind-south-east:             "\f05b";
+ @wind-south:                  "\f05c";
+ @wind-north-west:             "\f05d";
+ @wind-north-east:             "\f05e";
+ @wind-north:                  "\f060";
+ @wind-east:                   "\f061";
+ // NEW V1.2
+ @smoke:                       "\f062";
+ @dust:                        "\f063";
+ @snow-wind:                   "\f064";
+ @day-snow-wind:               "\f065";
+ @night-snow-wind:             "\f066";
+ @night-alt-snow-wind:         "\f067";
+ @day-sleet-storm:             "\f068";
+ @night-sleet-storm:           "\f069";
+ @night-alt-sleet-storm:       "\f06a";
+ @day-snow-thunderstorm:       "\f06b";
+ @night-snow-thunderstorm:     "\f06c";
+ @night-alt-snow-thunderstorm: "\f06d";
+ @solar-eclipse:               "\f06e";
+ @lunar-eclipse:               "\f070";
+ @meteor:                      "\f071";
+ @hot:                         "\f072";
+ @hurricane:                   "\f073";
+ @smog:                        "\f074";
+ @alien:                       "\f075";
+ @snowflake-cold:              "\f076";
+ @stars:                       "\f077";
+ // MORE NEW V1.2
+ @night-partly-cloudy:         "\f083";
+ // NEW 1.3 11-30-14
+ @umbrella                    :"\f084";
+ @day-windy                   :"\f085";
+ @night-alt-cloudy         :"\f086";
+ @up-left                  :"\f087";
+ @down-right               :"\f088";
+ @time-12                  :"\f089";
+ @time-1                   :"\f08a";
+ @time-2                   :"\f08b";
+ @time-3                   :"\f08c";
+ @time-4                   :"\f08d";
+ @time-5                   :"\f08e";
+ @time-6                   :"\f08f";
+ @time-7                   :"\f090";
+ @time-8                   :"\f091";
+ @time-9                   :"\f092";
+ @time-10                  :"\f093";
+ @time-11                  :"\f094";
+ // MOON PHASES
+ @moon-new                    :"\f095";
+ @moon-waxing-cresent-1       :"\f096";
+ @moon-waxing-cresent-2       :"\f097";
+ @moon-waxing-cresent-3       :"\f098";
+ @moon-waxing-cresent-4       :"\f099";
+ @moon-waxing-cresent-5       :"\f09a";
+ @moon-waxing-cresent-6       :"\f09b";
+ @moon-first-quarter          :"\f09c";
+ @moon-waxing-gibbous-1       :"\f09d";
+ @moon-waxing-gibbous-2       :"\f09e";
+ @moon-waxing-gibbous-3       :"\f09f";
+ @moon-waxing-gibbous-4       :"\f0a0";
+ @moon-waxing-gibbous-5       :"\f0a1";
+ @moon-waxing-gibbous-6       :"\f0a2";
+ @moon-full                   :"\f0a3";
+ @moon-waning-gibbous-1       :"\f0a4";
+ @moon-waning-gibbous-2       :"\f0a5";
+ @moon-waning-gibbous-3       :"\f0a6";
+ @moon-waning-gibbous-4       :"\f0a7";
+ @moon-waning-gibbous-5       :"\f0a8";
+ @moon-waning-gibbous-6       :"\f0a9";
+ @moon-3rd-quarter            :"\f0aa";
+ @moon-waning-crescent-1      :"\f0ab"; 
+ @moon-waning-crescent-2      :"\f0ac"; 
+ @moon-waning-crescent-3      :"\f0ad"; 
+ @moon-waning-crescent-4      :"\f0ae"; 
+ @moon-waning-crescent-5      :"\f0af"; 
+ @moon-waning-crescent-6      :"\f0b0"; 
+ //
+ @wind-default                :"\f0b1";
+ @day-sleet                   :"\f0b2";
+ @night-sleet                 :"\f0b3";
+ @night-alt-sleet             :"\f0b4";
+ @sleet                       :"\f0b5";
+ @day-haze                    :"\f0b6";
+ @beafort-0                   :"\f0b7";
+ @beafort-1                   :"\f0b8";
+ @beafort-2                   :"\f0b9";
+ @beafort-3                   :"\f0ba";
+ @beafort-4                   :"\f0bb";
+ @beafort-5                   :"\f0bc";
+ @beafort-6                   :"\f0bd";
+ @beafort-7                   :"\f0be";
+ @beafort-8                   :"\f0bf";
+ @beafort-9                   :"\f0c0";
+ @beafort-10                  :"\f0c1";
+ @beafort-11                  :"\f0c2";
+ @beafort-12                  :"\f0c3";
+
+
+@font-face {
+    font-family: '@{weather-icons-font-family}';
+    src: url('@{weather-icons-path}/@{weather-icons-font-family}-regular-webfont.eot');
+    src: url('@{weather-icons-path}/@{weather-icons-font-family}-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('@{weather-icons-path}/@{weather-icons-font-family}-regular-webfont.woff') format('woff'),
+         url('@{weather-icons-path}/@{weather-icons-font-family}-regular-webfont.ttf') format('truetype'),
+         url('@{weather-icons-path}/@{weather-icons-font-family}-regular-webfont.svg#weathericons-regular-webfontRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.@{weather-icons-prefix} {
+  display: inline-block;
+  font-family: '@{weather-icons-font-family}';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Day
+.@{weather-icons-prefix}-day-cloudy-gusts:before               { content: @day-cloudy-gusts            ; }
+.@{weather-icons-prefix}-day-cloudy-windy:before               { content: @day-cloudy-windy            ; }
+.@{weather-icons-prefix}-day-cloudy:before                     { content: @day-cloudy                  ; }
+.@{weather-icons-prefix}-day-fog:before                        { content: @day-fog                     ; }
+.@{weather-icons-prefix}-day-hail:before                       { content: @day-hail                    ; }
+.@{weather-icons-prefix}-day-lightning:before                  { content: @day-lightning               ; }
+.@{weather-icons-prefix}-day-rain-mix:before                   { content: @day-rain-mix                ; }
+.@{weather-icons-prefix}-day-rain-wind:before                  { content: @day-rain-wind               ; }
+.@{weather-icons-prefix}-day-rain:before                       { content: @day-rain                    ; }
+.@{weather-icons-prefix}-day-showers:before                    { content: @day-showers                 ; }
+.@{weather-icons-prefix}-day-snow:before                       { content: @day-snow                    ; }
+.@{weather-icons-prefix}-day-sprinkle:before                   { content: @day-sprinkle                ; }
+.@{weather-icons-prefix}-day-sunny-overcast:before             { content: @day-sunny-overcast          ; }
+.@{weather-icons-prefix}-day-sunny:before                      { content: @day-sunny                   ; }
+.@{weather-icons-prefix}-day-storm-showers:before              { content: @day-storm-showers           ; }
+.@{weather-icons-prefix}-day-thunderstorm:before               { content: @day-thunderstorm            ; }
+// Neutral- 
+.@{weather-icons-prefix}-cloudy-gusts:before                   { content: @cloudy-gusts                ; }
+.@{weather-icons-prefix}-cloudy-windy:before                   { content: @cloudy-windy                ; }
+.@{weather-icons-prefix}-cloudy:before                         { content: @cloudy                      ; }
+.@{weather-icons-prefix}-fog:before                            { content: @fog                         ; }
+.@{weather-icons-prefix}-hail:before                           { content: @hail                        ; }
+.@{weather-icons-prefix}-lightning:before                      { content: @lightning                   ; }
+.@{weather-icons-prefix}-rain-mix:before                       { content: @rain-mix                    ; }
+.@{weather-icons-prefix}-rain-wind:before                      { content: @rain-wind                   ; }
+.@{weather-icons-prefix}-rain:before                           { content: @rain                        ; }
+.@{weather-icons-prefix}-showers:before                        { content: @showers                     ; }
+.@{weather-icons-prefix}-snow:before                           { content: @snow                        ; }
+.@{weather-icons-prefix}-sprinkle:before                       { content: @sprinkle                    ; }
+.@{weather-icons-prefix}-storm-showers:before                  { content: @storm-showers               ; }
+.@{weather-icons-prefix}-thunderstorm:before                   { content: @thunderstorm                ; }
+.@{weather-icons-prefix}-windy:before                          { content: @windy                       ; }
+// Night 
+.@{weather-icons-prefix}-night-alt-cloudy-gusts:before         { content: @night-alt-cloudy-gusts      ; }
+.@{weather-icons-prefix}-night-alt-cloudy-windy:before         { content: @night-alt-cloudy-windy      ; }
+.@{weather-icons-prefix}-night-alt-hail:before                 { content: @night-alt-hail              ; }
+.@{weather-icons-prefix}-night-alt-lightning:before            { content: @night-alt-lightning         ; }
+.@{weather-icons-prefix}-night-alt-rain-mix:before             { content: @night-alt-rain-mix          ; }
+.@{weather-icons-prefix}-night-alt-rain-wind:before            { content: @night-alt-rain-wind         ; }
+.@{weather-icons-prefix}-night-alt-rain:before                 { content: @night-alt-rain              ; }
+.@{weather-icons-prefix}-night-alt-showers:before              { content: @night-alt-showers           ; }
+.@{weather-icons-prefix}-night-alt-snow:before                 { content: @night-alt-snow              ; }
+.@{weather-icons-prefix}-night-alt-sprinkle:before             { content: @night-alt-sprinkle          ; }
+.@{weather-icons-prefix}-night-alt-storm-showers:before        { content: @night-alt-storm-showers     ; }
+.@{weather-icons-prefix}-night-alt-thunderstorm:before         { content: @night-alt-thunderstorm      ; }
+.@{weather-icons-prefix}-night-clear:before                    { content: @night-clear                 ; }
+.@{weather-icons-prefix}-night-cloudy-gusts:before             { content: @night-cloudy-gusts          ; }
+.@{weather-icons-prefix}-night-cloudy-windy:before             { content: @night-cloudy-windy          ; }
+.@{weather-icons-prefix}-night-cloudy:before                   { content: @night-cloudy                ; }
+.@{weather-icons-prefix}-night-hail:before                     { content: @night-hail                  ; }
+.@{weather-icons-prefix}-night-lightning:before                { content: @night-lightning             ; }
+.@{weather-icons-prefix}-night-rain-mix:before                 { content: @night-rain-mix              ; }
+.@{weather-icons-prefix}-night-rain-wind:before                { content: @night-rain-wind             ; }
+.@{weather-icons-prefix}-night-rain:before                     { content: @night-rain                  ; }
+.@{weather-icons-prefix}-night-showers:before                  { content: @night-showers               ; }
+.@{weather-icons-prefix}-night-snow:before                     { content: @night-snow                  ; }
+.@{weather-icons-prefix}-night-sprinkle:before                 { content: @night-sprinkle              ; }
+.@{weather-icons-prefix}-night-storm-showers:before            { content: @night-storm-showers         ; }
+.@{weather-icons-prefix}-night-thunderstorm:before             { content: @night-thunderstorm          ; }
+// Misc 
+.@{weather-icons-prefix}-celsius:before                        { content: @celsius                     ; }
+.@{weather-icons-prefix}-cloud-down:before                     { content: @cloud-down                  ; }
+.@{weather-icons-prefix}-cloud-refresh:before                  { content: @cloud-refresh               ; }
+.@{weather-icons-prefix}-cloud-up:before                       { content: @cloud-up                    ; }
+.@{weather-icons-prefix}-cloud:before                          { content: @cloud                       ; }
+.@{weather-icons-prefix}-degrees:before                        { content: @degrees                     ; }
+.@{weather-icons-prefix}-down-left:before                      { content: @down-left                   ; }
+.@{weather-icons-prefix}-down:before                           { content: @down                        ; }
+.@{weather-icons-prefix}-fahrenheit:before                     { content: @fahrenheit                  ; }
+.@{weather-icons-prefix}-horizon-alt:before                    { content: @horizon-alt                 ; }
+.@{weather-icons-prefix}-horizon:before                        { content: @horizon                     ; }
+.@{weather-icons-prefix}-left:before                           { content: @left                        ; }
+.@{weather-icons-prefix}-lightning:before                      { content: @lightning                   ; }
+.@{weather-icons-prefix}-night-fog:before                      { content: @night-fog                   ; }
+.@{weather-icons-prefix}-refresh-alt:before                    { content: @refresh-alt                 ; }
+.@{weather-icons-prefix}-refresh:before                        { content: @refresh                     ; }
+.@{weather-icons-prefix}-right:before                          { content: @right                       ; }
+.@{weather-icons-prefix}-sprinkles:before                      { content: @sprinkles                   ; }
+.@{weather-icons-prefix}-strong-wind:before                    { content: @strong-wind                 ; }
+.@{weather-icons-prefix}-sunrise:before                        { content: @sunrise                     ; }
+.@{weather-icons-prefix}-sunset:before                         { content: @sunset                      ; }
+.@{weather-icons-prefix}-thermometer-exterior:before           { content: @thermometer-exterior        ; }
+.@{weather-icons-prefix}-thermometer-internal:before           { content: @thermometer-internal        ; }
+.@{weather-icons-prefix}-thermometer:before                    { content: @thermometer                 ; }
+.@{weather-icons-prefix}-tornado:before                        { content: @tornado                     ; }
+.@{weather-icons-prefix}-up-right:before                       { content: @up-right                    ; }
+.@{weather-icons-prefix}-up:before                             { content: @up                          ; }
+.@{weather-icons-prefix}-wind-west:before                      { content: @wind-west                   ; }
+.@{weather-icons-prefix}-wind-south-west:before                { content: @wind-south-west             ; }
+.@{weather-icons-prefix}-wind-south-east:before                { content: @wind-south-east             ; }
+.@{weather-icons-prefix}-wind-south:before                     { content: @wind-south                  ; }
+.@{weather-icons-prefix}-wind-north-west:before                { content: @wind-north-west             ; }
+.@{weather-icons-prefix}-wind-north-east:before                { content: @wind-north-east             ; }
+.@{weather-icons-prefix}-wind-north:before                     { content: @wind-north                  ; }
+.@{weather-icons-prefix}-wind-east:before                      { content: @wind-east                   ; }
+// New v1.1
+.@{weather-icons-prefix}-smoke:before                          { content: @smoke                       ; }
+.@{weather-icons-prefix}-dust:before                           { content: @dust                        ; }
+.@{weather-icons-prefix}-snow-wind:before                      { content: @snow-wind                   ; }
+.@{weather-icons-prefix}-day-snow-wind:before                  { content: @day-snow-wind               ; }
+.@{weather-icons-prefix}-night-snow-wind:before                { content: @night-snow-wind             ; }
+.@{weather-icons-prefix}-night-alt-snow-wind:before            { content: @night-alt-snow-wind         ; }
+.@{weather-icons-prefix}-day-sleet-storm:before                { content: @day-sleet-storm             ; }
+.@{weather-icons-prefix}-night-sleet-storm:before              { content: @night-sleet-storm           ; }
+.@{weather-icons-prefix}-night-alt-sleet-storm:before          { content: @night-alt-sleet-storm       ; }
+.@{weather-icons-prefix}-day-snow-thunderstorm:before          { content: @day-snow-thunderstorm       ; }
+.@{weather-icons-prefix}-night-snow-thunderstorm:before        { content: @night-snow-thunderstorm     ; }
+.@{weather-icons-prefix}-night-alt-snow-thunderstorm:before    { content: @night-alt-snow-thunderstorm ; }
+.@{weather-icons-prefix}-solar-eclipse:before                  { content: @solar-eclipse               ; }
+.@{weather-icons-prefix}-lunar-eclipse:before                  { content: @lunar-eclipse               ; }
+.@{weather-icons-prefix}-meteor:before                         { content: @meteor                      ; }
+.@{weather-icons-prefix}-hot:before                            { content: @hot                         ; }
+.@{weather-icons-prefix}-hurricane:before                      { content: @hurricane                   ; }
+.@{weather-icons-prefix}-smog:before                           { content: @smog                        ; }
+.@{weather-icons-prefix}-alien:before                          { content: @alien                       ; }
+.@{weather-icons-prefix}-snowflake-cold:before                 { content: @snowflake-cold              ; }
+.@{weather-icons-prefix}-stars:before                          { content: @stars                       ; }
+
+.@{weather-icons-prefix}-night-partly-cloudy:before            { content: @night-partly-cloudy         ; }
+
+// New 1.3
+.@{weather-icons-prefix}-umbrella:before                       { content: @umbrella            ; }
+.@{weather-icons-prefix}-day-windy:before                      { content: @day-windy           ; }
+.@{weather-icons-prefix}-night-alt-cloudy:before               { content: @night-alt-cloudy ; }
+.@{weather-icons-prefix}-up-left:before                        { content: @up-left          ; }
+.@{weather-icons-prefix}-down-right:before                     { content: @down-right       ; }
+.@{weather-icons-prefix}-time-12:before                        { content: @time-12          ; }
+.@{weather-icons-prefix}-time-1:before                         { content: @time-1           ; }
+.@{weather-icons-prefix}-time-2:before                         { content: @time-2           ; }
+.@{weather-icons-prefix}-time-3:before                         { content: @time-3           ; }
+.@{weather-icons-prefix}-time-4:before                         { content: @time-4           ; }
+.@{weather-icons-prefix}-time-5:before                         { content: @time-5           ; }
+.@{weather-icons-prefix}-time-6:before                         { content: @time-6           ; }
+.@{weather-icons-prefix}-time-7:before                         { content: @time-7           ; }
+.@{weather-icons-prefix}-time-8:before                         { content: @time-8           ; }
+.@{weather-icons-prefix}-time-9:before                         { content: @time-9           ; }
+.@{weather-icons-prefix}-time-10:before                        { content: @time-10          ; }
+.@{weather-icons-prefix}-time-11:before                        { content: @time-11          ; }
+//
+.@{weather-icons-prefix}-day-sleet:before                      { content: @day-sleet            ; }
+.@{weather-icons-prefix}-night-sleet:before                    { content: @night-sleet          ; }
+.@{weather-icons-prefix}-night-alt-sleet:before                { content: @night-alt-sleet      ; }
+.@{weather-icons-prefix}-sleet:before                          { content: @sleet                ; }
+.@{weather-icons-prefix}-day-haze:before                       { content: @day-haze             ; }
+.@{weather-icons-prefix}-beafort-0:before                      { content: @beafort-0            ; }
+.@{weather-icons-prefix}-beafort-1:before                      { content: @beafort-1            ; }
+.@{weather-icons-prefix}-beafort-2:before                      { content: @beafort-2            ; }
+.@{weather-icons-prefix}-beafort-3:before                      { content: @beafort-3            ; }
+.@{weather-icons-prefix}-beafort-4:before                      { content: @beafort-4            ; }
+.@{weather-icons-prefix}-beafort-5:before                      { content: @beafort-5            ; }
+.@{weather-icons-prefix}-beafort-6:before                      { content: @beafort-6            ; }
+.@{weather-icons-prefix}-beafort-7:before                      { content: @beafort-7            ; }
+.@{weather-icons-prefix}-beafort-8:before                      { content: @beafort-8            ; }
+.@{weather-icons-prefix}-beafort-9:before                      { content: @beafort-9            ; }
+.@{weather-icons-prefix}-beafort-10:before                     { content: @beafort-10           ; }
+.@{weather-icons-prefix}-beafort-11:before                     { content: @beafort-11           ; }
+.@{weather-icons-prefix}-beafort-12:before                     { content: @beafort-12           ; }
+
+// Wind Variables 1.3
+.@{weather-icons-prefix}-wind-default:before                   { content: @wind-default         ; }
+.wind-rotate(@degrees) {
+  -webkit-transform: rotate(@degrees);
+  -moz-transform: rotate(@degrees);
+  -ms-transform: rotate(@degrees);
+  -o-transform: rotate(@degrees);
+  transform: rotate(@degrees);
+}
+.@{weather-icons-prefix}-wind-default {
+  &._0-deg {.wind-rotate(0deg); }
+  &._15-deg {.wind-rotate(15deg); }
+  &._30-deg {.wind-rotate(30deg); }
+  &._45-deg {.wind-rotate(45deg); }
+  &._60-deg {.wind-rotate(60deg); }
+  &._75-deg {.wind-rotate(75deg); }
+  &._90-deg {.wind-rotate(90deg); }
+  &._105-deg {.wind-rotate(105deg); }
+  &._120-deg {.wind-rotate(120deg); }
+  &._135-deg {.wind-rotate(135deg); }
+  &._150-deg {.wind-rotate(150deg); }
+  &._165-deg {.wind-rotate(165deg); }
+  &._180-deg {.wind-rotate(180deg); }
+  &._195-deg {.wind-rotate(195deg); }
+  &._210-deg {.wind-rotate(210deg); }
+  &._225-deg {.wind-rotate(225deg); }
+  &._240-deg {.wind-rotate(240deg); }
+  &._255-deg {.wind-rotate(255deg); }
+  &._270-deg {.wind-rotate(270deg); }
+  &._285-deg {.wind-rotate(295deg); }
+  &._300-deg {.wind-rotate(300deg); }
+  &._315-deg {.wind-rotate(315deg); }
+  &._330-deg {.wind-rotate(330deg); }
+  &._345-deg {.wind-rotate(345deg); }
+}
+
+
+
+// Moon phases, v1.3
+.@{weather-icons-prefix}-moon-new:before                    { content: @moon-new                    ; }
+.@{weather-icons-prefix}-moon-waxing-cresent-1:before       { content: @moon-waxing-cresent-1       ; }
+.@{weather-icons-prefix}-moon-waxing-cresent-2:before       { content: @moon-waxing-cresent-2       ; }
+.@{weather-icons-prefix}-moon-waxing-cresent-3:before       { content: @moon-waxing-cresent-3       ; }
+.@{weather-icons-prefix}-moon-waxing-cresent-4:before       { content: @moon-waxing-cresent-4       ; }
+.@{weather-icons-prefix}-moon-waxing-cresent-5:before       { content: @moon-waxing-cresent-5       ; }
+.@{weather-icons-prefix}-moon-waxing-cresent-6:before       { content: @moon-waxing-cresent-6       ; }
+.@{weather-icons-prefix}-moon-first-quarter:before          { content: @moon-first-quarter          ; }
+.@{weather-icons-prefix}-moon-waxing-gibbous-1:before       { content: @moon-waxing-gibbous-1       ; }
+.@{weather-icons-prefix}-moon-waxing-gibbous-2:before       { content: @moon-waxing-gibbous-2       ; }
+.@{weather-icons-prefix}-moon-waxing-gibbous-3:before       { content: @moon-waxing-gibbous-3       ; }
+.@{weather-icons-prefix}-moon-waxing-gibbous-4:before       { content: @moon-waxing-gibbous-4       ; }
+.@{weather-icons-prefix}-moon-waxing-gibbous-5:before       { content: @moon-waxing-gibbous-5       ; }
+.@{weather-icons-prefix}-moon-waxing-gibbous-6:before       { content: @moon-waxing-gibbous-6       ; }
+.@{weather-icons-prefix}-moon-full:before                   { content: @moon-full                   ; }
+.@{weather-icons-prefix}-moon-waning-gibbous-1:before       { content: @moon-waning-gibbous-1       ; }
+.@{weather-icons-prefix}-moon-waning-gibbous-2:before       { content: @moon-waning-gibbous-2       ; }
+.@{weather-icons-prefix}-moon-waning-gibbous-3:before       { content: @moon-waning-gibbous-3       ; }
+.@{weather-icons-prefix}-moon-waning-gibbous-4:before       { content: @moon-waning-gibbous-4       ; }
+.@{weather-icons-prefix}-moon-waning-gibbous-5:before       { content: @moon-waning-gibbous-5       ; }
+.@{weather-icons-prefix}-moon-waning-gibbous-6:before       { content: @moon-waning-gibbous-6       ; }
+.@{weather-icons-prefix}-moon-3rd-quarter:before            { content: @moon-3rd-quarter            ; }
+.@{weather-icons-prefix}-moon-waning-crescent-1:before      { content: @moon-waning-crescent-1      ; }
+.@{weather-icons-prefix}-moon-waning-crescent-2:before      { content: @moon-waning-crescent-2      ; }
+.@{weather-icons-prefix}-moon-waning-crescent-3:before      { content: @moon-waning-crescent-3      ; }
+.@{weather-icons-prefix}-moon-waning-crescent-4:before      { content: @moon-waning-crescent-4      ; }
+.@{weather-icons-prefix}-moon-waning-crescent-5:before      { content: @moon-waning-crescent-5      ; }
+.@{weather-icons-prefix}-moon-waning-crescent-6:before      { content: @moon-waning-crescent-6      ; }
+
+// Include anything you need to make the Weather Icons styled here //
+
+
+
+

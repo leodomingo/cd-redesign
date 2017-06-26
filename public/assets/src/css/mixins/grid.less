@@ -1,0 +1,64 @@
+// -------------------------------------------------------------
+// Grid Spacing Mixins - Quickly Adjust Columns Appropriately
+// -------------------------------------------------------------
+
+
+
+	// Create equal width columns by calling this in the parent .row container
+	.row-equal-cols(@pad-left) {
+		@margin-left: (-1 * @pad-left);
+		margin: 0 0 0 @margin-left;
+
+		& > [class*="col"] {
+			padding-left:@pad-left;
+			padding-right:0;
+		}
+	}
+
+	.grid-settings(@type) {
+		@width:			"@{type}-width";
+		@pad:			((100% - @@width) / 2);
+		@align:			"@{type}-align";
+
+		width: @@width;
+		// padding-left:@pad;
+		// padding-right:@pad;
+		.grid-alignment(@@align);
+	}
+
+	.grid-settings(@type; @max) {
+		max-width:		"@{type}-width-max";
+		.grid-settings(@type);
+	}
+
+	.grid-style(@type) {
+		@bg-color:		"@{type}-bg-color";
+		@border-top:	"@{type}-border-top";
+		@border-bottom:	"@{type}-border-bottom";
+		@border-left:	"@{type}-border-left";
+		@border-right:	"@{type}-border-right";
+
+		background-color: @@bg-color;
+		border-top: @@border-top;
+		border-bottom: @@border-bottom;
+		border-left: @@border-left;
+		border-right: @@border-right;
+	}
+
+	.grid-alignment(@align) when (@align = 'center') {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.grid-alignment(@align) when (@align = 'right') {
+		float: right;
+	}
+
+	.grid-alignment(@align) when (@align = 'left') {
+		float: left;
+	}
+
+	.grid-alignment(@align) when (@align = null) {
+		margin-left: initial;
+		margin-right: inital;
+	}

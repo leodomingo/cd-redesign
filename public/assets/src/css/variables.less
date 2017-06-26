@@ -1,0 +1,152 @@
+// -------------------------------------------------------------
+// Variables - OVERRIDE DEFAULT VARIABLES OF BOOTSTRAP HERE
+// -------------------------------------------------------------
+
+
+
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	// 	  			*** IMPORT VARIABLE SECTIONS ***	 		 |							*** VARIABLE REFERENCE / OUTLINE ***
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	//		[√]	Required:										 –	These Variable LESS files are automatically included.
+	//		[*]	Generally Included:								 –	Most Sites Use These Components.
+	//		[–]	Site Specific Functionality:					 –	Include only when needed.
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	/*		[√]		*/	@import "variables/assets.less";		//	Any assets that need to be imported/retrieved are stored in variables in this directory.
+	//																	• Site Specific Fonts: Any font not included w/ bootstrap besides Font Icons (see icons.less)
+	//																	• File Paths to Images used within CSS
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	// /*		[√]		*/	@import "variables/colors.less";		//	All Colors used on the Site Need to Be Placed in Here
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	/*		[√]		*/	@import "variables/type.less";			//	Typography Variables
+	//																	• Default 					- Font families, sizes, colors, weight
+	//																	• <a>,<p>,<h1-6>			- Size/Color/Line-height/Weight/etc.
+	//																	• Content Specific Styling	- Articles, Dominant Headlines, Grid/List [By/Date]lines
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	/*		[√]		*/	@import "variables/global.less";		//	Global Variables Used by Various Components
+	//																	• Brand Colors
+	//																	• Button/Label/Alert State Colors
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	/*		[√]		*/	@import "variables/styles.less";		//	General Site Styling: Any Misc. CSS property values that are even remotely constant shall 
+	//																be assigned here. Any consistent styling that cannot be handled with the variables in the 
+	//																above LESS files will be dealt
+	//																with here.
+	//																	• div.row/div.col/hr.spacer -	General Spacing [Margin/Padding]
+	//																	• <article> variations		-	Style differences for previews, article content, 
+	//																	  						 		articles in grids, lists, etc
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	/*		[√]		*/	@import "variables/zindex.less";		//	Deal with z-index all in one place. Set z-index variables for various components/modules
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	/*		[√]		*/	@import "variables/grid.less";			//	Breakpoints, Grid System, & Container Variables
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	// /*		[√]		*/	@import "variables/tables.less";		//	Table display configurations
+	//																 	• Cell Spacing & Padding,
+	//																 	• Border Size & Color
+	//																 	• BG Colors, Striped Styles, and Hover Styling
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	// /*		[√]		*/	@import "variables/lists.less";			//	Variables that are used to display Bootstrap List Groups
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	// /*		[√]		*/	@import "variables/forms.less";			//	A fair amount of variables located here to change a number of different styling options
+	//																for form related elements
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	/*		[√]		*/	@import "variables/icons.less";			//	Glyphicons, Font Awesome, & Weather Icons Variable Configurations
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	// /*		[√]		*/	@import "variables/buttons.less";		//	General button, close, & caret styling used by multiple components
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	// /*		[√]		*/	@import "variables/thumbnails.less";	//	Thumbnail Image Styling
+	//																	• Thumbnail Padding, BG, Border, & Border-Radius Variables
+	//																	• Thumbnail Caption Color & Padding
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	// /*		[*]		*/	@import "variables/labels.less";		//		• Label state colors (Warning,Success,Primary,etc) set to brand variables (global.less)
+	//																	• Default label text color & text hover color
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	// /*		[*]		*/	@import "variables/badges.less";		//	General Badge Styling - Unique style not currently based off much else
+	//																	• BG, border color
+	//																	• Active & hover styling
+	//																	• Link & text styling
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	// /*		[*]		*/	@import "variables/panels.less";		//	Panel Styling mostly set to the state & brand variables set in global.less
+	//																	• If you only want to change a component's state/brand styling rather than all 
+	//																	  components, do it here.
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	// /*		[*]		*/	@import "variables/alerts.less";		//	Alert Styling mostly set to the state & brand variables set in global.less
+	//																	• If you only want to change a component's state/brand styling rather than all 
+	//																	  components, do it here.
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	// /*		[*]		*/	@import "variables/dropdowns.less";		//	Configurations for Dropdown Components:
+	//																	• BG, Border, Link, & Caret Styling
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	/*		[*]		*/	@import "variables/navigation.less";	//	Nav & Navbar configuration variables that allow you to style many aspects of the Bootstrap 
+	//																nav & navbar components
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	// /*		[*]		*/	@import "variables/breadcrumbs.less";	//	Display the current page's location within the navigational hierarchy.
+	//																	• BG/text color,
+	//																	• padding, & active label styling
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	// /*		[*]		*/	@import "variables/pagination.less";	//	Pagination.less & Pager Variables
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	// /*		[*]		*/	@import "variables/wells.less";			//	Well Styling - border & bg vars - I imagine more can be done with a well one day
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	// /*		[*]		*/	@import "variables/code.less";			//	Styling for displaying code in <pre>, <code>, and the like.
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	// /*		[*]		*/	@import "variables/carousels.less";		//	*** Add More Variables ***
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	// /*		[*]		*/	@import "variables/modals.less";		//	Self Explanatory
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	// /*		[–]		*/	@import "variables/tooltips.less";		//	Self Explanatory
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	// /*		[–]		*/	@import "variables/popovers.less";		//	Self Explanatory
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	// /*		[–]		*/	@import "variables/progressbars.less";	//	Self Explanatory
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	// /*		[–]		*/	@import "variables/jumbotron.less";		//	Self Explanatory
+	// --------------------------------------------------------------------------------------------------------------------------------------------------------
+	
+
+	// -----[!important]---------------------------------------------------------------------------------------------------------------------------------------
+	
+			@import "variables/variables.less";		//	All the Commented Out Variables Combined
+
+	// -----[!important]---------------------------------------------------------------------------------------------------------------------------------------
+	
+
+	// -----[!important]---------------------------------------------------------------------------------------------------------------------------------------
+	
+			@import "variables/bootstrap-supplement.less";		//	Any Variables that were removed and still used within bootstrap need to be dealt with here
+
+	// -----[!important]---------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+	/* THE FOLLOWING IS NOT WORKING AS @IMPORT STATEMENTS IN LESS STINK */
+
+
+	// --------------------------------------------------------------------------------------------------------------------------
+	// Import Variable Files - Set the @custom-import Variable to Include the Optional CSS & Components Used Throughout the Site
+	// --------------------------------------------------------------------------------------------------------------------------
+	//	* NOTES *
+	//		- All the variable LESS files are located in the "variables" directory.
+	//		- All of @import_required_variables is automatically Imported.
+	//		- Set the @custom_import to a list containing only the variables in the @import_optional_variables array/list.
+	//		- A quick reference is provided below for what each of the variable LESS files contain.
+	//		- The variable LESS files themselves are more thoroughly documented
+	// --------------------------------------------------------------------------------------------------------------------------
+
+		// @import_required_variables:			colors, type, global, styles, zindex, grid, tables, lists, forms, icons, buttons, thumbnails;
+		// @import_optional_variables:			labels, badges, panels, wells, code, dropdowns, navigation, breadcrumbs, pagination, tooltips, popovers, alerts, progressbars, modals, carousels, jumbotron;
+
+
+	// --------------------------------------------------------------------------------------------------------------------------
+	// Set to @import_optional_variables to include all the Variable LESS files.
+	// --------------------------------------------------------------------------------------------------------------------------
+	
+		// @import_custom_variables:			@import_optional_variables;
+
+
+	// --------------------------------------------------------------------------------------------------------------------------
+	// Loop through the @import_required and @custom_import lists/arrays to import all the variable files.
+	// --------------------------------------------------------------------------------------------------------------------------
+		
+		// .loop_import("../variables"; @import_required_variables);
+		// .loop_import("../../variables"; @import_custom_variables);

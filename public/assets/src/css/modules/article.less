@@ -1,0 +1,154 @@
+// //-------------------------------------------------------------
+// // Article Specific Styling
+// //-------------------------------------------------------------
+// //	 • Styling need for displaying article templates go in here.
+// //	   
+// //	   
+
+
+.article-content {
+	padding-left: 50px;
+	.full-bleed .domphoto-wrap img {
+		width: 100%;
+	}
+	.article-tag {
+		text-transform: uppercase;
+		color: #474847;
+		font-size: 17px;
+		font-weight: 500;
+	}
+	.article-headline {
+		color: @black;
+		font-size: 42px;
+		font-weight: 700;
+		line-height: 1.4em;
+	}
+	.article-subhead{
+		color: lighten(@color-main, 5%);
+		margin: 10px 0;
+		font-size: 24px;
+		font-weight: 400;
+	}
+	.byline {
+		color: #474847;
+		font-size: 20px;
+		font-weight:300;
+		.authors{
+			font-size:20px;
+			margin-top:0;
+		}
+		a {
+			color: inherit;
+		}
+	}
+	.fixed {
+		position: fixed;
+	    top: 0;
+	    height: 40px;
+	    padding-top: 10px;
+	    width: 100%;
+	    z-index: 5;
+	}
+	.share-elements {
+	    background-color: @white;
+		ul.share-boxes {
+			li {
+				text-transform: uppercase;
+				padding: 2px 5px; // was 5px 10px, changed for beta changes. 
+				//font-weight: 500;
+				margin: 0 5px; // was 0 10px, changed for beta
+				font-size:15px;
+				border-radius: 3px;
+				&:first-child {
+					margin-left: 0;
+				}
+				span {
+					margin-left: 10px;
+				}
+				a {
+					color: @white;
+				}
+			}
+			#facebook {
+				background: @color-facebook-art;
+				border: 1px solid darken(@color-facebook-art, 7%);
+				&:hover {
+					background: darken(@color-facebook-art, 10%);
+				}
+			}
+			#twitter {
+				background: @color-twitter-art;
+				border: 1px solid darken(@color-twitter-art, 7%);
+				&:hover {
+					background: darken(@color-twitter-art, 10%);
+				}
+			}
+			#google-plus {
+				background: @color-google-plus;
+				border: 1px solid darken(@color-google-plus, 7%);
+				&:hover {
+					background: darken(@color-google-plus, 10%);
+				}
+			}
+			#email {
+				background: @color-email;
+				border: 1px solid darken(@color-email, 7%);
+				&:hover {
+					background: darken(@color-email, 10%);
+				}
+			}
+		}
+	}
+	.photo-caption {
+		background: @gray-lighter;
+		color: #292526;
+		margin-top:0;
+		padding: 10px;
+		p {
+			margin: 0;
+		}
+		a {
+			color: inherit;
+		}
+	}
+	.integrated-media-left {
+		float: left;
+		width: 35%;
+		padding-right: 10px;
+		.info-box {
+			background: @color-main;
+			color: @white;
+			padding: 10px;
+		}
+		.image, .gallery, .youtube {
+			figcaption {
+				background: @gray-lighter;
+				padding: 5px;
+				margin-bottom: 10px;
+				i, p {
+					display: inline;
+				}
+				span {
+					display: block;
+				}
+			}
+		}
+	}
+	.article-copy {
+		font-size:19px;
+		font-family: @sans-serif-font;
+		color: @black;
+		line-height: 34px;
+		p {
+			line-height: 34px;
+		}
+		a {
+			text-decoration: underline;
+			color: @color-secondary;
+			font-weight: 700;
+			&:hover {
+				color: darken(@color-secondary, 10%);
+			}
+		}
+	}
+}

@@ -1,0 +1,200 @@
+// // --------------------------------------------------
+// //== Grid System
+// // --------------------------------------------------
+// //	• The @screen-SIZE variables are defined in less/variables/grid.less
+// //	• If changes need to be made, change those variables first
+// //	• Use the responsive / display specific styling as a sort of last means [imo]
+
+
+// 	/* EXTRA EXTRA SMALL devices (0px up to 345px) */
+// 	@media (max-width: @screen-xxs) {
+
+// 	}
+
+
+
+	/* EXTRA SMALL devices (0px up to tablets, 768px) */
+	@media (max-width: 768px) {
+		// OVERALL
+		.main-content {
+			.ad-fix-content {
+				padding-right: 9.375px;
+			}
+		}
+		// NAVBAR
+		header{
+			.nav-holder {
+				height: 88px;
+				nav.navbar {
+					position: fixed;
+					left: 0;
+					right: 0;
+					z-index:99;
+					.navbar-header {
+						img {
+							width: auto;
+							max-width: 81%;
+							max-height: 64px;
+						}
+					}
+					#navbar {
+						padding-left:10px;
+					}
+				}
+			}
+			nav.sticky.sticky-display{
+				display: none;
+			}
+		}
+		// TOP CAROUSEL ON TABLET/MOBILE HOMEPAGE
+		#top-carousel {
+			.item {
+				height: 285px;
+				background: @color-main;
+				img {
+					width: auto;
+					display: block;
+					margin: 0 auto;
+				}
+				.carousel-caption {
+					.carousel-title {
+						font-size: 20px;
+					}
+				}
+			}
+		}
+		// ARTICLE PAGE
+		.article-content {
+			padding-left: 9.375px;
+			div.integrated-media-left {
+				figcaption.invisible-xs {
+					visibility: hidden;
+				}
+			}
+		}
+
+		// FOOTER
+		footer {
+			.container {
+				.foot-logo-container {
+					float: none !important;
+				}
+				.col-xs-12.col-sm-6 {
+					.unstyled.inline.social {
+						text-align: center;
+						margin-top:20px;
+					}
+				}
+			}
+		}
+	}
+
+	/* SMALL devices (tablets, 768px and up to desktops, 992px) */
+	@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+		// OVERALL
+		.main-content {
+			.ad-fix-content {
+				padding-right: 9.375px;
+			}
+		}
+		// NAVBAR
+		header {
+			.nav-holder {
+				height: 88px;
+				nav.navbar {
+					position: fixed;
+					z-index: 99;
+					right: 0;
+					left: 0;
+					.navbar-header {
+						img {
+							max-height: 64px;
+						}
+					}
+				}
+			}
+			nav.sticky.sticky-display{
+				display: none;
+			}
+		}
+		// ARTICLE
+		.article-content {
+			padding-left: 9.375px;
+		}
+
+	}
+
+	/* MEDIUM devices (desktops, 992px and up to large desktops, 1200px) */
+	@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+		// HEADER 
+		// header {
+		// 	nav.navbar {
+		// 		#navbar {
+		// 			display: table !important;
+		// 			margin: 0 auto;
+		// 		}
+		// 	}
+		// }
+		// BRANDLINK
+		.brandlink {
+			.brandlink-content {
+				.brandlink-nav.affix {
+					width: 239px;
+				}
+			}
+		}
+		//CAROUSEL 
+		.carousel-row {
+			.centerpiece {
+				padding-right: 0;
+			}
+		}
+		// UTILITIES
+		.col-lg-9.ad-fix-content {
+			width: 70%;
+		}
+		.col-lg-3.ad-fix-ad {
+			width: 30%;
+		}
+	}
+
+
+	/* MEDIUM and LARGE devices (desktops, 992px and up) */
+	@media (min-width: @screen-md-min) {
+		
+	}
+
+
+	/* LARGE devices (large desktops, 1200px and up) */
+	@media (min-width: @screen-lg-min) {
+		// HEADER 
+		// header {
+		// 	nav.navbar {
+		// 		#navbar {
+		// 			display: table !important;
+		// 			margin: 0 auto;
+		// 		}
+		// 	}
+		// }
+		// BRANDLINK
+		.brandlink {
+			.brandlink-content {
+				.brandlink-nav.affix {
+					width: 289px;
+				}
+			}
+		}
+		//CAROUSEL 
+		.carousel-row {
+			.centerpiece {
+				padding-right: 0;
+			}
+		}
+		// UTILITIES
+		.col-lg-9.ad-fix-content {
+			width: 70%;
+		}
+		.col-lg-3.ad-fix-ad {
+			width: 30%;
+		}
+	}

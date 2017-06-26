@@ -1,0 +1,654 @@
+
+
+
+    
+
+
+
+<!DOCTYPE html>
+<html>
+<!--
+   _____ _   _                    _
+  / ____| \ | |                  | |
+ | (___ |  \| |_      _____  _ __| | _____
+  \___ \| . ` \ \ /\ / / _ \| '__| |/ / __|
+  ____) | |\  |\ V  V / (_) | |  |   <\__ \
+ |_____/|_| \_| \_/\_/ \___/|_|  |_|\_\___/
+
+SNworks - Solutions by The State News - http://getsnworks.com
+fd
+-->
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="generator" content="Gryphon 20160208900 (Foundry 6.1-20150615001)" />
+        <meta name="viewport" content="width=device-width">
+        
+                <title>Weird Music Wednesdays | The Cavalier Daily</title>
+
+<meta name="description" content="UVA's premier student-operated independent news organization and Charlottesville's oldest daily newspaper.">
+<meta name="twitter:site" content="@cavalierdaily">
+<meta property="og:site_name" content="The Cavalier Daily">
+
+
+	<script type="application/ld+json">
+		{
+			"@context": "http://schema.org",
+			"@type": "NewsArticle",
+			"headline": "Blogs",
+			"url": "http://cav.stage.getsnworks.com/blog",
+			"thumbnailUrl": "/assets/dist/img/fb-hidden-icon.jpg",
+			"dateCreated": "",
+			"articleSection": "Blogs",
+			"creator": [""],
+			"keywords": [""]
+		}
+	</script>
+
+
+<!-- END gryphon/main/meta.tpl -->
+                <link rel="apple-touch-icon" sizes="57x57" href="/assets/dist/img/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/assets/dist/img/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/assets/dist/img/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/assets/dist/img/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/assets/dist/img/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/assets/dist/img/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/assets/dist/img/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/assets/dist/img/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/dist/img/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/assets/dist/img/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/assets/dist/img/favicons/favicon-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/assets/dist/img/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/assets/dist/img/favicons/favicon-16x16.png" sizes="16x16">
+<link rel="mask-icon" href="/assets/dist/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="manifest" href="/assets/dist/img/favicons/manifest.json">
+<link rel="shortcut icon" href="/assets/dist/img/favicons/favicon.png">
+<meta name="apple-mobile-web-app-title" content="TheCavalierDaily">
+<meta name="application-name" content="TheCavalierDaily">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="/assets/dist/img/favicons/mstile-144x144.png">
+<meta name="msapplication-config" content="/assets/dist/img/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
+                <meta name="apple-mobile-web-app-title" content="The Cavalier Daily">
+        <meta name="application-name" content="The Cavalier Daily">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/assets/dist/img/favicons/mstile-144x144.png">
+        <meta name="msapplication-config" content="/assets/dist/img/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+
+                <script src="/assets/dist/js/master-min.js"></script>
+
+                
+                <link rel="stylesheet" type="text/css" media="screen, projection, print" href="/assets/dist/css/master.css" />
+
+                		
+
+			
+
+				<script src="/assets/dist/galleria/galleria-1.4.2.min.js"></script>
+		
+
+		
+
+				<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		
+
+			
+
+			
+
+			
+
+
+                
+                
+                    </head>
+
+    <body>
+                
+
+                <header>
+            <div class="container hidden-sm hidden-xs">
+                <div class="top-ads">
+                    <div class="row hidden-xs hidden-sm">
+                        <div class="col-md-12 col-lg-9 ad-fix-content">
+                            <!-- gryphon/ads/leaderboard.tpl -->
+
+<div id="leaderboard" class="grid_12 mb">
+	<img src="http://placehold.it/728x90">
+	<!-- <a href="#" class="close"></a>
+	<div class="mmb"></div> -->
+</div>
+                        </div>
+                        <div class="col-lg-3 ad-fix-ad hidden-md">
+                            <!-- gryphon/ads/leaderboard.tpl -->
+
+<div id="leaderboard" class="grid_12 mb">
+	<img src="http://placehold.it/300x90">
+	<!-- <a href="#" class="close"></a>
+	<div class="mmb"></div> -->
+</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row logo-row">
+                    <div class="col-sm-12">
+                        <a href="/"><img src="/assets/dist/img/cav-daily-logo.png" class="head-logo"></a>
+                                                <div class="weather-header">
+                                
+                        </div>
+                                            </div>
+                </div>
+            </div>
+                        <div class="nav-holder">
+                <nav class="navbar navbar-default" id="main-nav">
+                    <div class="container">
+                                            <div class="navbar-header">
+                                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                                                        <a class="navbar-brand hidden-lg hidden-md" href="/"><img src="/assets/dist/img/cav-daily-logo.png"></a>
+                        </div>
+
+                        <div id="navbar" class="collapse navbar-collapse navbar-collapse-main">
+                            <ul class="nav navbar-nav navbar-left">
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/section/news">News</a></li>
+                                <li><a href="/section/sports">Sports</a></li>
+                                <li><a href="/section/opinion">Opinion</a></li>
+                                <li><a href="/section/life">Life</a></li>
+                                <li><a href="/section/arts-entertainment">A&E</a></li>
+                                <li><a href="/section/focus">Focus</a></li>
+                                <li><a href="/section/health-science">H&S</a></li>
+                                <li><a href="/section/humor">Humor</a></li>
+                                <li><a href="/multimedia/">Photo</a></li>
+                                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">About</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/page/about">About</a></li>
+                                        <li><a href="/page/advertise">Advertise</a></li>
+                                        <li><a href="/page/code-of-ethics">Code of Ethics</a></li>
+                                        <li><a href="/page/comment-policy">Comment Policy</a></li>
+                                        <li><a href="/page/donate">Donate</a></li>
+                                        <li><a href="/page/join">Join</a></li>
+                                        <li><a href="/page/masthead">Masthead</a></li>
+                                        <li><a href="/page/permissions">Permissions</a></li>        
+                                        <li><a href="/page/subscribe">subscribe</a></li>
+                                        <li><a href="/page/tips">Tips</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown visible-md"><a class="dropdown-toggle" data-toggle="dropdown" href="#">+</a>
+                                    <ul class="dropdown-menu">
+                                        <li class="active"><a href="/blog/">Blogs</a></li>
+                                                                                <li><a href="/section/brand-link">Brand Link</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown hidden-md"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Blogs</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="/blog/fashion-fridays">Fashon Fridays</a></li>
+                                        <li><a href="/blog/movies-you-havent-seen-but-should">Movies You Haven't Seen, But Should</a></li>
+                                        <li><a href="/blog/weird-music-wednesdays">Weird Music Wednesdays</a></li>
+                                    </ul>
+                                </li>
+                                                                <li class="hidden-md" ><a href="/section/brand-link">Brand Link</a></li>
+                                <li><a href="/search/?a=1"><i class="fa fa-search"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                            </div>
+            
+        </header>
+            
+        
+                
+                
+
+            
+                
+                        
+                        
+<div class="container blog-front">
+
+	<div class="row main-content">
+		<div class="col-sm-12 col-md-8 col-lg-9 ad-fix-content blog-rundown">
+
+							<h1 class="blog-title no-top-marg">Weird Music Wednesdays</h1>
+			
+			<hr class="double spacer" />
+
+												<article>
+						<h3 class="no-bottom-marg"><a href="http://cav.stage.getsnworks.com/blog/weird-music-wednesdays/2014/04/weird-music-wednesday-youre-in-the-jungle-baby-youre-gonna-die-">Weird Music Wednesday: You&#039;re in the Jungle Baby...you&#039;re gonna die...</a></h3>
+
+
+						<div class="highlight smaller">
+							By Will Mullany
+							Last updated: 04/29/14 9:31am
+						</div>
+
+
+						<p>UK Jungle is a harsh, uncompromising, disruptive form of music. And that’s probably exactly why it sticks.</p>
+
+	<p>Typically conceived by low-income black youth in Britain and born into the London club scene in the early 90s, jungle was a piece-by-piece reversal of the dominant European dance-music paradigm, which consisted of simple, trance-like, 4/4 disco-esque music and over-the-top melodies and harmonies. Old school jungle beats were almost entirely incompatible with standard dance ...</p>
+
+						<h4 class="no-top-marg"><a href="http://cav.stage.getsnworks.com/blog/weird-music-wednesdays/2014/04/weird-music-wednesday-youre-in-the-jungle-baby-youre-gonna-die-">Read More</a></h4>
+												<hr class="clearfix double spacer" />
+					</article>
+																<article>
+						<h3 class="no-bottom-marg"><a href="http://cav.stage.getsnworks.com/blog/weird-music-wednesdays/2014/04/weird-music-8-algorithms-we-live-by">Weird Music #8: Algorithms we live by</a></h3>
+
+
+						<div class="highlight smaller">
+							By Will Mullany
+							Last updated: 04/16/14 9:50am
+						</div>
+
+
+						<p>For those of us who find it difficult to do go about our everyday tasks without the assistance of a computer, it’s a constant struggle to maintain a safe distance from technology and convince ourselves we could operate without it. Recently, however, I have had my doubts â especially because of my love of music.</p>
+
+	<p>Many music aficionados hold that their refined tastes and extensive knowledge of music are entirely their own work, but how can this claim hold water in the digital age? ...</p>
+
+						<h4 class="no-top-marg"><a href="http://cav.stage.getsnworks.com/blog/weird-music-wednesdays/2014/04/weird-music-8-algorithms-we-live-by">Read More</a></h4>
+												<hr class="clearfix double spacer" />
+					</article>
+																<article>
+						<h3 class="no-bottom-marg"><a href="http://cav.stage.getsnworks.com/blog/weird-music-wednesdays/2014/04/weird-music-7-blimey-its-grimey">Weird Music #7: Blimey...It’s Grimey!</a></h3>
+
+
+						<div class="highlight smaller">
+							By Will Mullany
+							Last updated: 04/09/14 12:10pm
+						</div>
+
+
+						<p>In the United States, listeners typically perceive a divide between electronic and hip-hop music scenes â an opposition of cultural values and aesthetic preferences. Several artists have attempted to cross this gap throughout the years, ranging from the fusion of <a href="http://www.youtube.com/watch?v=xnrLXDYnS6c">Kanye Westâs</a> “Yeezus” to the second-rate patchwork that makes up every <a href="http://www.youtube.com/watch?v=HMUDVMiITOU">Lil Jon-<span class="caps">EDM</span> ...</a></p>
+
+						<h4 class="no-top-marg"><a href="http://cav.stage.getsnworks.com/blog/weird-music-wednesdays/2014/04/weird-music-7-blimey-its-grimey">Read More</a></h4>
+												<hr class="clearfix double spacer" />
+					</article>
+																<article>
+						<h3 class="no-bottom-marg"><a href="http://cav.stage.getsnworks.com/blog/weird-music-wednesdays/2014/04/weird-music-wednesdays-6-wu-tang-clan-and-the-great-hip-hop-swindle">Weird Music Wednesdays #6: Wu-Tang Clan and the Great Hip-Hop Swindle</a></h3>
+
+
+						<div class="highlight smaller">
+							By Will Mullany
+							Last updated: 04/02/14 9:39am
+						</div>
+
+
+						<p>In todayâs music business, artists must take steps to protect their necks against early release, copyright infringement and other musical pitfalls.</p>
+
+	<p>Thatâs why the legendary hip-hop group Wu-Tang Clan will be producing only one copy of their next studio album, eventually selling it in an extravagant silver box for a multimillion dollar price.</p>
+
+	<p>In a <a href="http://www.forbes.com/sites/zackomalleygreenburg/2014/03/26/why-wu-tang-will-release-just-one-copy-of-its-secret-album/">recent ...</a></p>
+
+						<h4 class="no-top-marg"><a href="http://cav.stage.getsnworks.com/blog/weird-music-wednesdays/2014/04/weird-music-wednesdays-6-wu-tang-clan-and-the-great-hip-hop-swindle">Read More</a></h4>
+												<hr class="clearfix double spacer" />
+					</article>
+																<article>
+						<h3 class="no-bottom-marg"><a href="http://cav.stage.getsnworks.com/blog/weird-music-wednesdays/2014/03/weird-music-wednesdays-5-what-the-hell-is-vaporwave">Weird Music Wednesdays #5: What the hell is Vaporwave?</a></h3>
+
+
+						<div class="highlight smaller">
+							By Will Mullany
+							Last updated: 03/26/14 9:31am
+						</div>
+
+
+						<p>Do you remember the early days of digital? The Windows 95 era? The time of GeoCities, low-quality Casio synthesizers and hyper-technological visions of the future? Right now there’s an Internet subculture that’s obsessed with reshaping and repurposing these digital artifacts of our internet past, and it’s called Vaporwave.</p>
+
+	<p>The best way to get a feel for vaporwave aesthetics is to do a Google image search for âVaporwave,â or to look at this <a href="http://www.youtube.com/watch?v=stgrSjynPKs">music ...</a></p>
+
+						<h4 class="no-top-marg"><a href="http://cav.stage.getsnworks.com/blog/weird-music-wednesdays/2014/03/weird-music-wednesdays-5-what-the-hell-is-vaporwave">Read More</a></h4>
+												<hr class="clearfix double spacer" />
+					</article>
+																<article>
+						<h3 class="no-bottom-marg"><a href="http://cav.stage.getsnworks.com/blog/weird-music-wednesdays/2014/03/weird-music-wednesdays-4-madlibs-mad-mad-world">Weird Music Wednesdays #4: Madlib’s mad, mad world</a></h3>
+
+
+						<div class="highlight smaller">
+							By Will Mullany
+							Last updated: 03/18/14 7:30pm
+						</div>
+
+
+						<p>A few days ago, âCocaine PiÃ±ataâ â the collaborative effort by beat-auteur Madlib (also known as Otis Jackson, Jr.) and hard-boiled gangsta rapper Freddie Gibbs â was finally released, and, in my opinion, marks one of the best hip-hop records in a very long time. âPiÃ±ataâ is unrivaled in its sheer production value and is honed down to a sharp sonic edge which doesn’t pull punches on a single track. </p>
+
+	<p>While the album deserves its own celebratory piece, I’d like ...</p>
+
+						<h4 class="no-top-marg"><a href="http://cav.stage.getsnworks.com/blog/weird-music-wednesdays/2014/03/weird-music-wednesdays-4-madlibs-mad-mad-world">Read More</a></h4>
+												<hr class="clearfix double spacer" />
+					</article>
+																<article>
+						<h3 class="no-bottom-marg"><a href="http://cav.stage.getsnworks.com/blog/weird-music-wednesdays/2014/03/drums-please">Weird Music Wednesdays #3: Drums please</a></h3>
+
+
+						<div class="highlight smaller">
+							By Will Mullany
+							Last updated: 03/04/14 5:25pm
+						</div>
+
+
+						<p>Everyone has a musical weakness. For some, it’s a certain song or band. For others, it’s the timbre of a particular instrument, the idiosyncratic tone of an individual singer’s voice, or something as simple as a specific chord structure. My weakness is the sound of drums.</p>
+
+	<p>My childhood was as stereotypical as any drummer’s childhood could get. I banged on pots and buckets, tapped on school desks with pencils, played in the school orchestra and finally formed a ...</p>
+
+						<h4 class="no-top-marg"><a href="http://cav.stage.getsnworks.com/blog/weird-music-wednesdays/2014/03/drums-please">Read More</a></h4>
+												<hr class="clearfix double spacer" />
+					</article>
+																<article>
+						<h3 class="no-bottom-marg"><a href="http://cav.stage.getsnworks.com/blog/weird-music-wednesdays/2014/02/weird-music-wednesday-2">Weird Music Wednesday #2: Hip-hop&#039;s new jumpers</a></h3>
+
+
+						<div class="highlight smaller">
+							By Will Mullany
+							Last updated: 02/25/14 3:32pm
+						</div>
+
+
+						<p>Throughout the past year, a dude by the name of Young Thug has been creeping his way into the limelight, and it’s pretty hard to figure out why. He wears skinny jeans and has tattoos covering his lanky frame. His rapping style falls somewhere between yelping and Auto-tuned burbles, and his lyrics are laced with bizarre personal revelations.</p>
+
+	<p>The point is, Thug should be a difficult sell to mainstream hip-hop audience, but the critical acclaim of his mixtape â1017 Thug,â as ...</p>
+
+						<h4 class="no-top-marg"><a href="http://cav.stage.getsnworks.com/blog/weird-music-wednesdays/2014/02/weird-music-wednesday-2">Read More</a></h4>
+												<hr class="clearfix double spacer" />
+					</article>
+																<article>
+						<h3 class="no-bottom-marg"><a href="http://cav.stage.getsnworks.com/blog/weird-music-wednesdays/2014/02/weird-music-wednesdays-1-weird-genres">Weird Music Wednesdays #1: Weird Genres</a></h3>
+
+
+						<div class="highlight smaller">
+							By Will Mullany
+							Last updated: 02/18/14 4:29pm
+						</div>
+
+
+						<p>I recently happened upon on an internet page entitled “Lists of music genres.â It included, of course, “rock,” “pop” and “country,” but as I progressed deeper and deeper into this list of all lists, I began to pick out smaller, more obscure types.</p>
+
+	<p>There was “lowercase,” a style of minimalist ambient music which involves minute sounds and extended stretches of silence.</p>
+
+	<p>The list included “aquacrunk,” (also known ...</p>
+
+						<h4 class="no-top-marg"><a href="http://cav.stage.getsnworks.com/blog/weird-music-wednesdays/2014/02/weird-music-wednesdays-1-weird-genres">Read More</a></h4>
+												<hr class="clearfix double spacer" />
+					</article>
+										<hr class="spacer" />
+
+
+			<nav>
+				<ul class="pagination">
+															<li class="disabled"><a href="#">1</a></li>
+																				<li><a href="/blog/weird-music-wednesdays?page=1">Next &#187;</a></li>
+													</ul>
+			</nav>
+
+		</div>
+		<div class="col-md-4 col-lg-3 ad-fix-ad sidebar hidden-sm hidden-xs">
+		 	
+<div class="social-header">
+    <a href="http://www.facebook.com/CavalierDaily" id="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+    <a href="https://twitter.com/cavalierdaily" id="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+    <a href="https://instagram.com/cavalierdaily/" id="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+    <a href="http://www.youtube.com/user/CavalierDaily" id="youtube" target="_blank"><i class="fa fa-youtube-play"></i></a>
+    <a href="/page/feeds" id="rss"><i class="fa fa-rss"></i></a>
+</div>
+
+<div class="">
+	<img src="http://placehold.it/300x250">
+	</div>
+
+
+<div>
+	
+
+
+	
+    	
+	
+<div class="sidebar-events">
+	<h3 class="rundown-head"><a href="/calendar/">UPCOMING EVENTS</a></h3>
+	<ul id="tabs" class="nav nav-tabs" data-tabs="tabs">
+		<li class="active"><a href="#d-07" data-toggle="tab">WED<br />7</a></li>
+		<li><a href="#d-08" data-toggle="tab">THU<br />8</a></li>
+		<li><a href="#d-09" data-toggle="tab">FRI<br />9</a></li>
+		<li><a href="#d-10" data-toggle="tab">SAT<br />10</a></li>
+	</ul>
+	<div id="my-tab-content" class="tab-content">
+		<div id="d-07" class="tab-pane active">
+							<p>No events for this date</p>
+				</div>
+		
+		<div id="d-08" class="tab-pane">
+							<p>No events for this date</p>
+				</div>
+		
+		<div id="d-09" class="tab-pane">
+							<p>No events for this date</p>
+				</div>
+		
+		<div id="d-10" class="tab-pane">
+							<p>No events for this date</p>
+				</div>
+		<div class="text-right"><a href="/calendar/">FULL CALENDAR ></i></a></div>
+	</div>
+</div>
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('#tabs').tab();
+    });
+</script></div>
+
+<div class="">
+	<img src="http://placehold.it/300x250">
+	</div>
+
+<div class="tabbable">
+	<ul class="nav nav-tabs">
+		<li class="active"><a href="#1" data-toggle="tab">POPULAR</a></li>
+		<li><a href="#2" data-toggle="tab">RECENT</a></li>
+			</ul>
+	<div class="tab-content">
+		
+				<div class="tab-pane active stories-tab" id="1">
+			
+		
+						
+					
+	<div class="row">
+		<div class="col-sm-12">
+					</div>
+	</div>
+
+
+		</div>
+
+				<div class="tab-pane comments" id="2">
+	        
+		
+						
+					
+	<div class="row">
+		<div class="col-sm-12">
+														<article class="art-left">
+		<div class="row">
+			
+			<div class="col-xs-12 art-left-txt-div">
+				<h4  class="art-left-headline no-top-marg"><a href="http://cav.stage.getsnworks.com/article/2014/09/class-giving-campaign-begins">Class Giving Committee kicks off 2015 campaign</a></h4 >
+
+															<p class="no-top-marg">
+							<span class="dateline">
+																										By <a href="http://cav.stage.getsnworks.com/staff/kevin-hare">Kevin Hare</a>
+																														 and 											<a href="http://cav.stage.getsnworks.com/staff/sawan-patel">Sawan Patel</a>
+																												|
+															</span>
+							<span class="time-since">9/22/2014  2:21am</span>
+						</p>
+									
+				
+			</div>
+		</div>
+
+		
+	</article>
+
+														<article class="art-left">
+		<div class="row">
+			
+			<div class="col-xs-12 art-left-txt-div">
+				<h4  class="art-left-headline no-top-marg"><a href="http://cav.stage.getsnworks.com/article/2014/09/climate-change">Climate change</a></h4 >
+
+															<p class="no-top-marg">
+							<span class="dateline">
+																										By <a href="http://cav.stage.getsnworks.com/staff/managing-board">Managing Board</a>
+																		|
+															</span>
+							<span class="time-since">9/22/2014  8:36am</span>
+						</p>
+									
+				
+			</div>
+		</div>
+
+		
+	</article>
+
+														<article class="art-left">
+		<div class="row">
+			
+			<div class="col-xs-12 art-left-txt-div">
+				<h4  class="art-left-headline no-top-marg"><a href="http://cav.stage.getsnworks.com/article/2014/09/bernstein-careless-conservatism">BERNSTEIN: Careless conservativism</a></h4 >
+
+															<p class="no-top-marg">
+							<span class="dateline">
+																										By <a href="http://cav.stage.getsnworks.com/staff/dani-bernstein">Dani Bernstein</a>
+																		|
+															</span>
+							<span class="time-since">9/22/2014  9:20am</span>
+						</p>
+									
+				
+			</div>
+		</div>
+
+		
+	</article>
+
+														<article class="art-left">
+		<div class="row">
+			
+			<div class="col-xs-12 art-left-txt-div">
+				<h4  class="art-left-headline no-top-marg"><a href="http://cav.stage.getsnworks.com/article/2014/09/broom-progress-past-print">BROOM: Progress past print</a></h4 >
+
+															<p class="no-top-marg">
+							<span class="dateline">
+																										By <a href="http://cav.stage.getsnworks.com/staff/christopher-broom">Christopher Broom</a>
+																		|
+															</span>
+							<span class="time-since">9/22/2014  12:12am</span>
+						</p>
+									
+				
+			</div>
+		</div>
+
+		
+	</article>
+
+														<article class="art-left">
+		<div class="row">
+			
+			<div class="col-xs-12 art-left-txt-div">
+				<h4  class="art-left-headline no-top-marg"><a href="http://cav.stage.getsnworks.com/article/2014/09/oneuva-reaches-overseas">ONE@UVA reaches overseas</a></h4 >
+
+															<p class="no-top-marg">
+							<span class="dateline">
+																										By <a href="http://cav.stage.getsnworks.com/staff/danaite-soquar">Danaite Soquar</a>
+																		|
+															</span>
+							<span class="time-since">9/21/2014  11:29pm</span>
+						</p>
+									
+				
+			</div>
+		</div>
+
+		
+	</article>
+
+					</div>
+	</div>
+
+
+		</div>
+					</div>
+</div>
+
+<div class="">
+	<img src="http://placehold.it/300x250">
+	</div>
+
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCavalierDaily%2F&tabs=timeline&width=300&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="300" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+
+
+<div class="">
+	<img src="http://placehold.it/300x250">
+	</div>
+
+		</div>
+
+
+	</div>
+</div>
+
+
+
+                        
+                
+
+                <footer>
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-sm-12">
+                        <ul class="unstyled inline foot-nav">
+                            <li><a href="/page/about">about</a></li>
+                            <li><a href="/page/masthead">masthead</a></li>
+                            <li><a href="/page/join">join</a></li>
+                            <li><a href="/page/advertise">advertise</a></li>
+                            <li><a href="/classifieds">classifieds</a></li>
+                            <li><a href="/page/permissions">permissions</a></li>
+                            <li><a href="/page/donate">donate</a></li>
+                            <li><a href="/page/code-of-ethics">code&nbsp;of&nbsp;ethics</a></li>
+                            <li><a href="/page/tips">tips</a></li>
+                            <li><a href="/page/comment-policy">comment&nbsp;policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="row text-center">
+                    <p>Copyright <span id="copyright-year"></span> The Cavalier Daily. All rights reserved.</p>
+                    <p class="snw">Powered by <a href="http://getsnworks.com" target="_blank"><img src="http://cdn.thesn.net/gAssets/SNworks.png" class="snworks"/></a> Solutions by The State News.</p>
+                </div>
+                <hr class="dashed">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 foot-logo-container pull-left">
+                        <a href="/">
+                            <img src="/assets/dist/img/tmp-logo-white.png" class="foot-logo">
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 social">
+                        <a href="http://www.facebook.com/CavalierDaily" id="facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a href="https://twitter.com/cavalierdaily" id="twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                        <a href="https://instagram.com/cavalierdaily/" id="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a href="http://www.youtube.com/user/CavalierDaily" id="youtube" target="_blank"><i class="fa fa-youtube-play"></i></a>
+                        <a href="/page/feeds" id="rss"><i class="fa fa-rss"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+                
+    </body>
+</html>
+
+<!-- 42 1.6878879070282 -->

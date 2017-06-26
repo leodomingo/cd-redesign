@@ -1,0 +1,153 @@
+// //-------------------------------------------------------------
+// // Utility Classes
+// //-------------------------------------------------------------
+
+	//------------------------------------
+	// REUSABLE CLASSES
+	//------------------------------------
+		ul.unstyled {
+			padding-left: 0;
+			list-style: none;
+			&.inline {
+				li {
+					display: inline;
+				}
+			}
+			&.dividers {
+				li {
+					border-left: 1px solid @white;
+					padding: 0 5px;
+					&:first-child {
+						border-left: 0;
+					}
+				}
+			}
+		}
+		.unstyled.inline.social{
+				font-size:32px;
+				a{
+					color: @white;
+				}
+				#facebook {
+					background: @color-facebook;
+					&:hover {
+						background: darken(@color-facebook, 8%);
+					}
+					i {
+						width: 32px;
+					}
+				}
+				#twitter {
+					background: @color-twitter;
+					&:hover {
+						background: darken(@color-twitter, 8%);
+					}
+				}
+				#instagram {
+					background: @color-instagram;
+					&:hover {
+						background: darken(@color-instagram, 8%);
+					}
+					i{
+						width:35px;
+					}
+				}
+				#youtube {
+					background: @color-youtube;
+					&:hover {
+						background: darken(@color-youtube, 8%);
+					}
+				}
+				#rss {
+					background: @color-rss;
+					&:hover {
+						background: darken(@color-rss, 8%);
+					}
+				}
+				li {
+					text-align: center;
+					border-radius: 50%;
+					a {
+						padding: 5px;
+						&:hover {
+							color: @white;
+						}
+					}
+				}
+		}
+		hr.dashed {
+			border: 1px dashed @white;
+		}
+
+// 	//------------------------------------
+// 	// TEXT ALIGNMENT
+// 	//------------------------------------
+// 		.text-center {
+// 			text-align:center;
+// 		}
+
+// 		.text-left {
+// 			text-align:left;
+// 		}
+
+// 		.text-right {
+// 			text-align:right;
+// 		}
+		.no-marg {
+			margin: 0;
+		}
+		.no-top-marg {
+			margin-top: 0;
+		}
+		.no-bottom-marg {
+			margin-bottom: 0;
+		}
+
+// 	//------------------------------------
+// 	// TEXT color
+// 	//------------------------------------
+// 		.text-main {
+// 			color:@color-main;
+// 		}
+
+// 		.text-alt {
+// 			color:@color-alt;
+// 		}
+
+// 		.text-inverse {
+// 			color:@color-inverse;
+// 		}
+
+// 		.text-inverse-alt {
+// 			color:@color-inverse-alt;
+// 		}
+
+// 	//------------------------------------
+// 	// TEXT background
+// 	//------------------------------------
+// 		.bg-main {
+// 			background-color:@color-main;
+// 		}
+
+// 		.bg-alt {
+// 			background-color:@color-alt;
+// 		}
+
+// 		.bg-inverse {
+// 			background-color:@color-inverse;
+// 		}
+
+// 		.bg-inverse-alt {
+// 			background-color:@color-inverse-alt;
+// 		}
+
+// 	//------------------------------------
+// 	// ELEMENT POSITIONING
+// 	//------------------------------------
+// 		.vertical-center {
+// 			position:relative;
+// 			top:50%;
+// 			-webkit-transform:translateY(-50%);
+// 			-ms-transform:translateY(-50%);
+// 			transform:translateY(-50%);
+// 		}
