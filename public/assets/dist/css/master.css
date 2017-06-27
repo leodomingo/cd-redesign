@@ -150,6 +150,10 @@ html {
     width: 100%;
 }
 
+.mid-page-ad.strict {
+    width: auto;
+}
+
 .vertical-ad {
     max-height: 600px;
     display: inline-block;
